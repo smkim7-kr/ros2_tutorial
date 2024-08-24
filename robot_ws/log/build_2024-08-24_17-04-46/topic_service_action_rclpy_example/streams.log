@@ -1,0 +1,35 @@
+[0.691s] Invoking command in '/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example': PYTHONPATH=/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example/build --no-deps symlink_data
+[0.805s] /home/smkim/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[0.805s]   warnings.warn(msg)
+[0.929s] running develop
+[0.929s] /home/smkim/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.929s] !!
+[0.929s] 
+[0.929s]         ********************************************************************************
+[0.929s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.929s]         Instead, use pypa/build, pypa/installer or other
+[0.930s]         standards-based tools.
+[0.930s] 
+[0.930s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.930s]         ********************************************************************************
+[0.930s] 
+[0.930s] !!
+[0.930s]   easy_install.initialize_options(self)
+[1.086s] running egg_info
+[1.098s] writing topic_service_action_rclpy_example.egg-info/PKG-INFO
+[1.099s] writing dependency_links to topic_service_action_rclpy_example.egg-info/dependency_links.txt
+[1.099s] writing entry points to topic_service_action_rclpy_example.egg-info/entry_points.txt
+[1.099s] writing requirements to topic_service_action_rclpy_example.egg-info/requires.txt
+[1.099s] writing top-level names to topic_service_action_rclpy_example.egg-info/top_level.txt
+[1.124s] reading manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'topic_service_action_rclpy_example.egg-info/SOURCES.txt'
+[1.138s] running build_ext
+[1.138s] Creating /home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/python3.10/site-packages/topic-service-action-rclpy-example.egg-link (link to .)
+[1.139s] Installing argument script to /home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[1.139s] Installing calculator script to /home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[1.139s] Installing checker script to /home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[1.139s] Installing operator script to /home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/topic_service_action_rclpy_example
+[1.140s] 
+[1.140s] Installed /home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example
+[1.140s] running symlink_data
+[1.169s] Invoked command in '/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example' returned '0': PYTHONPATH=/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example/build --no-deps symlink_data

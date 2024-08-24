@@ -1,0 +1,61 @@
+[0.010s] Invoking command in '/home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake /home/smkim/ros2_tutorials/robot_ws/src/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example
+[0.221s] -- The C compiler identification is GNU 11.4.0
+[0.601s] -- The CXX compiler identification is GNU 11.4.0
+[0.894s] -- Detecting C compiler ABI info
+[1.014s] -- Detecting C compiler ABI info - done
+[1.021s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.024s] -- Detecting C compile features
+[1.025s] -- Detecting C compile features - done
+[1.029s] -- Detecting CXX compiler ABI info
+[1.174s] -- Detecting CXX compiler ABI info - done
+[1.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.180s] -- Detecting CXX compile features
+[1.180s] -- Detecting CXX compile features - done
+[1.188s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.460s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.571s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.735s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.741s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.753s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.810s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.961s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.961s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.962s]   msg_srv_action_interface_example --arguments-file
+[1.962s]   /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/rosidl_adapter__arguments__msg_srv_action_interface_example.json
+[1.962s]   --output-dir
+[1.962s]   /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example
+[1.962s]   --output-file
+[1.962s]   /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example.idls)
+[1.962s]   returned error code 1:
+[1.962s] 
+[1.962s]   Traceback (most recent call last):
+[1.962s] 
+[1.962s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.962s]       return _run_code(code, main_globals, None,
+[1.962s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.962s]       exec(code, run_globals)
+[1.962s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.962s]       sys.exit(main())
+[1.962s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.962s]       abs_idl_file = convert_to_idl(
+[1.962s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[1.962s]       return convert_action_to_idl(
+[1.962s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[1.962s]       action = parse_action_string(package_name, input_file.stem, content)
+[1.962s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 894, in parse_action_string
+[1.962s]       raise InvalidActionSpecification(
+[1.962s] 
+[1.962s]   rosidl_adapter.parser.InvalidActionSpecification: Number of '---'
+[1.963s]   separators nonconformant with action definition
+[1.963s] 
+[1.963s] Call Stack (most recent call first):
+[1.963s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.963s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.963s] 
+[1.963s] [0m
+[1.963s] -- Configuring incomplete, errors occurred!
+[1.963s] See also "/home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/CMakeFiles/CMakeOutput.log".
+[1.970s] Invoked command in '/home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example' returned '1': CMAKE_PREFIX_PATH=/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake /home/smkim/ros2_tutorials/robot_ws/src/msg_srv_action_interface_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example
