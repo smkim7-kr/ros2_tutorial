@@ -1,0 +1,35 @@
+/home/smkim/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+/home/smkim/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing calculator.egg-info/PKG-INFO
+writing dependency_links to calculator.egg-info/dependency_links.txt
+writing entry points to calculator.egg-info/entry_points.txt
+writing requirements to calculator.egg-info/requires.txt
+writing top-level names to calculator.egg-info/top_level.txt
+reading manifest file 'calculator.egg-info/SOURCES.txt'
+writing manifest file 'calculator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/python3.10/site-packages/calculator.egg-link (link to .)
+Installing argument script to /home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/calculator
+Installing calculator script to /home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/calculator
+Installing checker script to /home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/calculator
+Installing operator script to /home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/calculator
+
+Installed /home/smkim/ros2_tutorials/robot_ws/build/calculator
+running symlink_data
+symbolically linking /home/smkim/ros2_tutorials/robot_ws/build/calculator/launch/arithmetic.launch.py -> /home/smkim/ros2_tutorials/robot_ws/install/calculator/share/calculator/launch
+symbolically linking /home/smkim/ros2_tutorials/robot_ws/build/calculator/param/arithmetic_config.yaml -> /home/smkim/ros2_tutorials/robot_ws/install/calculator/share/calculator/param

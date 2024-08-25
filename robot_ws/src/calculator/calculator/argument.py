@@ -1,3 +1,4 @@
+# topic publisher: send message
 import random
 from msg_srv_action_interface_example.msg import ArithmeticArgument
 from rcl_interfaces.msg import SetParametersResult
@@ -9,13 +10,14 @@ from rclpy.qos import QoSDurabilityPolicy, QoSHistoryPolicy, QoSProfile, QoSReli
 class Argument(Node):
     def __init__(self):
         super().__init__('argument')
-        self.declare_parameter('qos_depth', 10)
-        qos_depth = self.get_parameter('qos_depth').value
+        self.declare_parameter('qos_depth', 10) # initialize parameter name and default value
+        qos_depth = self.get_parameter('qos_depth').value # get parameter
         self.declare_parameter('min_random_num', 0)
         self.min_random_num = self.get_parameter('min_random_num').value
         self.declare_parameter('max_random_num', 9)
         self.max_random_num = self.get_parameter('max_random_num').value
-        self.add_on_set_parameters_callback(self.update_parameter)
+        # service-like, callback function run when request on parameter change
+        self.add_on_set_parameters_callback(self.update_parameter) 
 
         QOS_RKL10V = QoSProfile(
             reliability=QoSReliabilityPolicy.RELIABLE,

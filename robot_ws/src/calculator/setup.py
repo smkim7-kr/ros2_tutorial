@@ -13,7 +13,7 @@ setup(
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         (share_dir, ['package.xml']),
         (share_dir + '/launch', glob.glob(os.path.join('launch', '*.launch.py'))),
-        (share_dir + '/param', glob.glob(os.path.join('param', '*.yaml'))),
+        (share_dir + '/param', glob.glob(os.path.join('param', '*.yaml'))), # used to set parameter
     ],
     install_requires=['setuptools'],
     zip_safe=True,
