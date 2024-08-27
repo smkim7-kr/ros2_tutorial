@@ -1,0 +1,191 @@
+[0.000000] (-) TimerEvent: {}
+[0.000423] (-) JobUnselected: {'identifier': 'basic_pkg'}
+[0.000635] (-) JobUnselected: {'identifier': 'basic_pkg_cpp'}
+[0.000849] (-) JobUnselected: {'identifier': 'calculator'}
+[0.001237] (-) JobUnselected: {'identifier': 'logger'}
+[0.001300] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.001333] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.001364] (-) JobUnselected: {'identifier': 'topic_service_action_rclpy_example'}
+[0.001396] (calculator_cpp) JobQueued: {'identifier': 'calculator_cpp', 'dependencies': OrderedDict([('msg_srv_action_interface_example', '/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example')])}
+[0.001432] (calculator_cpp) JobStarted: {'identifier': 'calculator_cpp'}
+[0.077901] (calculator_cpp) JobProgress: {'identifier': 'calculator_cpp', 'progress': 'cmake'}
+[0.078786] (calculator_cpp) JobProgress: {'identifier': 'calculator_cpp', 'progress': 'build'}
+[0.079862] (calculator_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp', '--', '-j8', '-l8'], 'cwd': '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smkim'), ('GIT_ASKPASS', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/smkim'), ('OLDPWD', '/home/smkim/ros2_tutorials/robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6752b727-b2b9-4b31-9a60-c6253fc5761e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'smkim'), ('NAME', 'skim'), ('WSL_INTEROP', '/run/WSL/643_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.2.1/:/mnt/c/Users/82103/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/82103/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/82103/miniconda3:/mnt/c/Users/82103/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/82103/miniconda3/Library/usr/bin:/mnt/c/Users/82103/miniconda3/Library/bin:/mnt/c/Users/82103/miniconda3/Scripts:/mnt/c/Users/82103/anaconda3:/mnt/c/Users/82103/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/82103/anaconda3/Library/usr/bin:/mnt/c/Users/82103/anaconda3/Library/bin:/mnt/c/Users/82103/anaconda3/Scripts:/mnt/c/Users/82103/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/82103/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/JetBrains/DataSpell 213.5352.7/bin:/mnt/c/Users/82103/Desktop/Github/django:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/82103/AppData/Local/Pandoc/:/mnt/c/Users/82103/Desktop/Github/22nsml:/mnt/c/Users/82103/AppData/Local/afreeca:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/82103/AppData/Local/Programs/Ollama:/snap/bin:/home/smkim/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1c6d3aeb8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/ros2env/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/calculator:/home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:/home/smkim/ros2_tutorials/robot_ws/build/logger:/home/smkim/ros2_tutorials/robot_ws/install/logger/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099111] (-) TimerEvent: {}
+[0.110795] (calculator_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target argument\x1b[0m\n'}
+[0.111051] (calculator_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target calculator\x1b[0m\n'}
+[0.118808] (calculator_cpp) StdoutLine: {'line': b'[ 50%] Built target operator\n'}
+[0.119031] (calculator_cpp) StdoutLine: {'line': b'[ 50%] Built target checker\n'}
+[0.127855] (calculator_cpp) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o\x1b[0m\n'}
+[0.128263] (calculator_cpp) StdoutLine: {'line': b'[ 87%] Built target argument\n'}
+[0.199285] (-) TimerEvent: {}
+[0.299685] (-) TimerEvent: {}
+[0.400121] (-) TimerEvent: {}
+[0.500514] (-) TimerEvent: {}
+[0.601022] (-) TimerEvent: {}
+[0.701469] (-) TimerEvent: {}
+[0.802027] (-) TimerEvent: {}
+[0.902435] (-) TimerEvent: {}
+[1.002928] (-) TimerEvent: {}
+[1.103310] (-) TimerEvent: {}
+[1.203744] (-) TimerEvent: {}
+[1.304149] (-) TimerEvent: {}
+[1.404629] (-) TimerEvent: {}
+[1.505317] (-) TimerEvent: {}
+[1.605974] (-) TimerEvent: {}
+[1.706363] (-) TimerEvent: {}
+[1.806856] (-) TimerEvent: {}
+[1.907296] (-) TimerEvent: {}
+[2.007699] (-) TimerEvent: {}
+[2.108131] (-) TimerEvent: {}
+[2.208614] (-) TimerEvent: {}
+[2.309074] (-) TimerEvent: {}
+[2.401926] (calculator_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.402193] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.402260] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.402317] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.402373] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.402428] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.402483] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.402538] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.402593] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.402650] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.402703] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.402757] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:9\x1b[m\x1b[K:\n'}
+[2.402816] (calculator_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.402872] (calculator_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:49:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.402934] (calculator_cpp) StderrLine: {'line': b'   49 |         \x1b[01;35m\x1b[K"Timestamp of the message: sec %ld nanosec %ld"\x1b[m\x1b[K,\n'}
+[2.402989] (calculator_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.403047] (calculator_cpp) StderrLine: {'line': b'   50 |         \x1b[32m\x1b[Kmsg->stamp.sec\x1b[m\x1b[K,\n'}
+[2.403101] (calculator_cpp) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.403157] (calculator_cpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.403212] (calculator_cpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}\x1b[m\x1b[K\n'}
+[2.403267] (calculator_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:49:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.403326] (calculator_cpp) StderrLine: {'line': b'   49 |         "Timestamp of the message: sec \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K nanosec %ld",\n'}
+[2.403382] (calculator_cpp) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[2.403438] (calculator_cpp) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.403493] (calculator_cpp) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[2.403550] (calculator_cpp) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[2.403606] (calculator_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.403660] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.403719] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.403773] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.403828] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.403884] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.403940] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.403996] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.404051] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.404110] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.404164] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.404217] (calculator_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:9\x1b[m\x1b[K:\n'}
+[2.404276] (calculator_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:49:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.404344] (calculator_cpp) StderrLine: {'line': b'   49 |         \x1b[01;35m\x1b[K"Timestamp of the message: sec %ld nanosec %ld"\x1b[m\x1b[K,\n'}
+[2.404399] (calculator_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.404456] (calculator_cpp) StderrLine: {'line': b'   50 |         msg->stamp.sec,\n'}
+[2.404511] (calculator_cpp) StderrLine: {'line': b'   51 |         \x1b[32m\x1b[Kmsg->stamp.nanosec\x1b[m\x1b[K);\n'}
+[2.404565] (calculator_cpp) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.404619] (calculator_cpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.404690] (calculator_cpp) StderrLine: {'line': b'      |                    \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}\x1b[m\x1b[K\n'}
+[2.404756] (calculator_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:49:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.404814] (calculator_cpp) StderrLine: {'line': b'   49 |         "Timestamp of the message: sec %ld nanosec \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K",\n'}
+[2.404871] (calculator_cpp) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[2.404930] (calculator_cpp) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.404985] (calculator_cpp) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[2.405041] (calculator_cpp) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[2.409279] (-) TimerEvent: {}
+[2.509721] (-) TimerEvent: {}
+[2.610153] (-) TimerEvent: {}
+[2.710498] (-) TimerEvent: {}
+[2.810940] (-) TimerEvent: {}
+[2.911379] (-) TimerEvent: {}
+[3.011864] (-) TimerEvent: {}
+[3.112318] (-) TimerEvent: {}
+[3.212710] (-) TimerEvent: {}
+[3.313178] (-) TimerEvent: {}
+[3.413602] (-) TimerEvent: {}
+[3.514103] (-) TimerEvent: {}
+[3.614588] (-) TimerEvent: {}
+[3.715058] (-) TimerEvent: {}
+[3.815561] (-) TimerEvent: {}
+[3.916047] (-) TimerEvent: {}
+[4.016544] (-) TimerEvent: {}
+[4.117026] (-) TimerEvent: {}
+[4.217604] (-) TimerEvent: {}
+[4.318084] (-) TimerEvent: {}
+[4.418607] (-) TimerEvent: {}
+[4.519178] (-) TimerEvent: {}
+[4.619621] (-) TimerEvent: {}
+[4.720091] (-) TimerEvent: {}
+[4.820519] (-) TimerEvent: {}
+[4.921003] (-) TimerEvent: {}
+[5.021545] (-) TimerEvent: {}
+[5.122036] (-) TimerEvent: {}
+[5.222423] (-) TimerEvent: {}
+[5.322888] (-) TimerEvent: {}
+[5.423284] (-) TimerEvent: {}
+[5.523758] (-) TimerEvent: {}
+[5.624195] (-) TimerEvent: {}
+[5.724579] (-) TimerEvent: {}
+[5.825055] (-) TimerEvent: {}
+[5.925517] (-) TimerEvent: {}
+[6.026075] (-) TimerEvent: {}
+[6.126459] (-) TimerEvent: {}
+[6.226903] (-) TimerEvent: {}
+[6.327368] (-) TimerEvent: {}
+[6.427958] (-) TimerEvent: {}
+[6.528588] (-) TimerEvent: {}
+[6.629180] (-) TimerEvent: {}
+[6.729946] (-) TimerEvent: {}
+[6.830596] (-) TimerEvent: {}
+[6.931170] (-) TimerEvent: {}
+[7.031636] (-) TimerEvent: {}
+[7.132083] (-) TimerEvent: {}
+[7.232484] (-) TimerEvent: {}
+[7.332962] (-) TimerEvent: {}
+[7.433410] (-) TimerEvent: {}
+[7.534008] (-) TimerEvent: {}
+[7.634531] (-) TimerEvent: {}
+[7.735108] (-) TimerEvent: {}
+[7.835569] (-) TimerEvent: {}
+[7.936131] (-) TimerEvent: {}
+[8.036624] (-) TimerEvent: {}
+[8.137150] (-) TimerEvent: {}
+[8.237692] (-) TimerEvent: {}
+[8.338255] (-) TimerEvent: {}
+[8.438740] (-) TimerEvent: {}
+[8.539237] (-) TimerEvent: {}
+[8.625849] (calculator_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable calculator\x1b[0m\n'}
+[8.639390] (-) TimerEvent: {}
+[8.739856] (-) TimerEvent: {}
+[8.840434] (-) TimerEvent: {}
+[8.940865] (-) TimerEvent: {}
+[9.041366] (-) TimerEvent: {}
+[9.102994] (calculator_cpp) StdoutLine: {'line': b'[100%] Built target calculator\n'}
+[9.112134] (calculator_cpp) CommandEnded: {'returncode': 0}
+[9.138134] (calculator_cpp) JobProgress: {'identifier': 'calculator_cpp', 'progress': 'install'}
+[9.141480] (-) TimerEvent: {}
+[9.145920] (calculator_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp'], 'cwd': '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smkim'), ('GIT_ASKPASS', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/smkim'), ('OLDPWD', '/home/smkim/ros2_tutorials/robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6752b727-b2b9-4b31-9a60-c6253fc5761e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'smkim'), ('NAME', 'skim'), ('WSL_INTEROP', '/run/WSL/643_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/smkim/.vscode-server/bin/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.5/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.2.1/:/mnt/c/Users/82103/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/82103/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/82103/miniconda3:/mnt/c/Users/82103/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/82103/miniconda3/Library/usr/bin:/mnt/c/Users/82103/miniconda3/Library/bin:/mnt/c/Users/82103/miniconda3/Scripts:/mnt/c/Users/82103/anaconda3:/mnt/c/Users/82103/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/82103/anaconda3/Library/usr/bin:/mnt/c/Users/82103/anaconda3/Library/bin:/mnt/c/Users/82103/anaconda3/Scripts:/mnt/c/Users/82103/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/82103/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/MySQL/MySQL Server 8.0/bin:/mnt/c/Program Files/JetBrains/DataSpell 213.5352.7/bin:/mnt/c/Users/82103/Desktop/Github/django:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/82103/AppData/Local/Pandoc/:/mnt/c/Users/82103/Desktop/Github/22nsml:/mnt/c/Users/82103/AppData/Local/afreeca:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.2/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/82103/AppData/Local/Programs/Ollama:/snap/bin:/home/smkim/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a1c6d3aeb8.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/smkim/ros2_tutorials/robot_ws/build/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/ros2env/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/calculator:/home/smkim/ros2_tutorials/robot_ws/install/calculator/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:/home/smkim/ros2_tutorials/robot_ws/build/logger:/home/smkim/ros2_tutorials/robot_ws/install/logger/lib/python3.10/site-packages:/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[9.152888] (calculator_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.153912] (calculator_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.154910] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/argument\n'}
+[9.155198] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/calculator\n'}
+[9.155438] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/checker\n'}
+[9.155559] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/operator\n'}
+[9.155673] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/ament_index/resource_index/package_run_dependencies/calculator_cpp\n'}
+[9.155935] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/ament_index/resource_index/parent_prefix_path/calculator_cpp\n'}
+[9.156130] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/environment/ament_prefix_path.sh\n'}
+[9.156263] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/environment/ament_prefix_path.dsv\n'}
+[9.156379] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/environment/path.sh\n'}
+[9.156508] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/environment/path.dsv\n'}
+[9.156745] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/local_setup.bash\n'}
+[9.156836] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/local_setup.sh\n'}
+[9.156879] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/local_setup.zsh\n'}
+[9.156916] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/local_setup.dsv\n'}
+[9.156955] (calculator_cpp) StdoutLine: {'line': b'-- Symlinking: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/package.dsv\n'}
+[9.164037] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/ament_index/resource_index/packages/calculator_cpp\n'}
+[9.164292] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/cmake/calculator_cppConfig.cmake\n'}
+[9.164336] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/cmake/calculator_cppConfig-version.cmake\n'}
+[9.164374] (calculator_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/share/calculator_cpp/package.xml\n'}
+[9.166111] (calculator_cpp) CommandEnded: {'returncode': 0}
+[9.205036] (calculator_cpp) JobEnded: {'identifier': 'calculator_cpp', 'rc': 0}
+[9.206062] (-) EventReactorShutdown: {}

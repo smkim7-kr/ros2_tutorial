@@ -1,0 +1,69 @@
+[0.077s] Invoking command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp': CMAKE_PREFIX_PATH=/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp -- -j8 -l8
+[0.146s] [ 50%] Built target checker
+[0.146s] [ 62%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o[0m
+[0.146s] [ 62%] Built target operator
+[0.146s] [ 75%] [32mBuilding CXX object CMakeFiles/argument.dir/src/argument.cpp.o[0m
+[2.466s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.467s]                  from [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/include/calculator.hpp:11[m[K,
+[2.467s]                  from [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:8[m[K:
+[2.467s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:[m[K In lambda function:
+[2.467s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:45:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.467s]    45 |         [01;35m[K"Timestamp of the message: sec %ld nanosec %ld"[m[K,
+[2.467s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.467s]    46 |         [32m[Kmsg->stamp.sec[m[K,
+[2.467s]       |         [32m[K~~~~~~~~~~~~~~[m[K
+[2.467s]       |                    [32m[K|[m[K
+[2.467s]       |                    [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[2.467s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:45:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.467s]    45 |         "Timestamp of the message: sec [01;36m[K%ld[m[K nanosec %ld",
+[2.467s]       |                                        [01;36m[K~~^[m[K
+[2.468s]       |                                          [01;36m[K|[m[K
+[2.468s]       |                                          [01;36m[Klong int[m[K
+[2.468s]       |                                        [32m[K%d[m[K
+[2.468s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.468s]                  from [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/include/calculator.hpp:11[m[K,
+[2.468s]                  from [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:8[m[K:
+[2.468s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:45:9:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.468s]    45 |         [01;35m[K"Timestamp of the message: sec %ld nanosec %ld"[m[K,
+[2.469s]       |         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.469s]    46 |         msg->stamp.sec,
+[2.469s]    47 |         [32m[Kmsg->stamp.nanosec[m[K);
+[2.469s]       |         [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[2.469s]       |                    [32m[K|[m[K
+[2.469s]       |                    [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}[m[K
+[2.469s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:45:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.469s]    45 |         "Timestamp of the message: sec %ld nanosec [01;36m[K%ld[m[K",
+[2.469s]       |                                                    [01;36m[K~~^[m[K
+[2.469s]       |                                                      [01;36m[K|[m[K
+[2.469s]       |                                                      [01;36m[Klong int[m[K
+[2.469s]       |                                                    [32m[K%d[m[K
+[8.526s] [ 87%] [32m[1mLinking CXX executable argument[0m
+[9.017s] [ 87%] Built target argument
+[9.220s] [100%] [32m[1mLinking CXX executable calculator[0m
+[9.645s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[9.645s] (.text+0x1b): undefined reference to `main'
+[9.684s] collect2: error: ld returned 1 exit status
+[9.685s] gmake[2]: *** [CMakeFiles/calculator.dir/build.make:177: calculator] Error 1
+[9.685s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/calculator.dir/all] Error 2
+[9.686s] gmake: *** [Makefile:146: all] Error 2
+[9.689s] Invoked command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp' returned '2': CMAKE_PREFIX_PATH=/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example:/home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp -- -j8 -l8

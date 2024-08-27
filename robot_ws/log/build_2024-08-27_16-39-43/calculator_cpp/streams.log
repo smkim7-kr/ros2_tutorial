@@ -1,0 +1,62 @@
+[0.069s] Invoking command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp -- -j8 -l8
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target calculator[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target operator[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target argument[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target checker[0m
+[0.102s] [ 25%] [32mBuilding CXX object CMakeFiles/operator.dir/src/operator.cpp.o[0m
+[0.102s] [ 25%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/argument.dir/src/argument.cpp.o[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/checker.dir/src/checker.cpp.o[0m
+[0.110s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/operator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.110s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/operator.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.110s]     1 | int main([01;35m[Kint argc[m[K, char * argv[])
+[0.110s]       |          [01;35m[K~~~~^~~~[m[K
+[0.110s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/operator.cpp:1:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.110s]     1 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[0.110s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[0.110s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/checker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.110s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/checker.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.111s]     1 | int main([01;35m[Kint argc[m[K, char * argv[])
+[0.111s]       |          [01;35m[K~~~~^~~~[m[K
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/argument.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/argument.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.111s]     1 | int main([01;35m[Kint argc[m[K, char * argv[])
+[0.111s]       |          [01;35m[K~~~~^~~~[m[K
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:1:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.111s]     1 | int main([01;35m[Kint argc[m[K, char * argv[])
+[0.111s]       |          [01;35m[K~~~~^~~~[m[K
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/argument.cpp:1:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.111s]     1 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[0.111s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[0.111s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/calculator.cpp:1:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.111s]     1 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[0.111s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[0.112s] [01m[K/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/src/checker.cpp:1:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.112s]     1 | int main(int argc, [01;35m[Kchar * argv[][m[K)
+[0.112s]       |                    [01;35m[K~~~~~~~^~~~~~[m[K
+[0.126s] [ 87%] [32m[1mLinking CXX executable calculator[0m
+[0.126s] [ 87%] [32m[1mLinking CXX executable operator[0m
+[0.126s] [ 87%] [32m[1mLinking CXX executable checker[0m
+[0.126s] [100%] [32m[1mLinking CXX executable argument[0m
+[0.246s] [100%] Built target argument
+[0.247s] [100%] Built target operator
+[0.253s] [100%] Built target calculator
+[0.254s] [100%] Built target checker
+[0.261s] Invoked command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp -- -j8 -l8
+[0.292s] Invoking command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --install /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp
+[0.296s] -- Install configuration: ""
+[0.297s] -- Execute custom install script
+[0.298s] -- Symlinking: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/argument
+[0.304s] -- Symlinking: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/calculator
+[0.310s] -- Symlinking: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/checker
+[0.318s] -- Symlinking: /home/smkim/ros2_tutorials/robot_ws/install/calculator_cpp/lib/calculator_cpp/operator
+[0.324s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.324s]   ament_cmake_symlink_install_directory() can't find
+[0.324s]   '/home/smkim/ros2_tutorials/robot_ws/src/calculator_cpp/launch'
+[0.324s] Call Stack (most recent call first):
+[0.324s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.324s]   cmake_install.cmake:46 (include)
+[0.324s] 
+[0.324s] [0m
+[0.325s] Invoked command in '/home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smkim/ros2_tutorials/robot_ws/install/topic_service_action_rclpy_example:/home/smkim/ros2_tutorials/robot_ws/install/ros2env:/home/smkim/ros2_tutorials/robot_ws/install/calculator:/home/smkim/ros2_tutorials/robot_ws/install/logger:/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --install /home/smkim/ros2_tutorials/robot_ws/build/calculator_cpp
