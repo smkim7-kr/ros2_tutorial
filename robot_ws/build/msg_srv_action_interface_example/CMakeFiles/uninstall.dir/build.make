@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smkim/ros2_tutorials/robot_ws/src/msg_srv_action_interface_example
+CMAKE_SOURCE_DIR = /robot_ws/src/msg_srv_action_interface_example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example
+CMAKE_BINARY_DIR = /robot_ws/build/msg_srv_action_interface_example
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smkim/ros2_tutorials/robot_ws/src/msg_srv_action_interface_example /home/smkim/ros2_tutorials/robot_ws/src/msg_srv_action_interface_example /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /robot_ws/build/msg_srv_action_interface_example && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /robot_ws/src/msg_srv_action_interface_example /robot_ws/src/msg_srv_action_interface_example /robot_ws/build/msg_srv_action_interface_example /robot_ws/build/msg_srv_action_interface_example /robot_ws/build/msg_srv_action_interface_example/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

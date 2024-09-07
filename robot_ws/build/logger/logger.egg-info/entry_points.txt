@@ -1,2 +1,3 @@
 [console_scripts]
 logging = logger.logger:main
+

@@ -1,0 +1,33 @@
+[0.578s] Invoking command in '/robot_ws/build/calculator': PYTHONPATH=/robot_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/calculator/build --no-deps symlink_data
+[0.796s] running develop
+[0.796s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.796s]   warnings.warn(
+[0.919s] running egg_info
+[0.919s] creating calculator.egg-info
+[0.919s] writing calculator.egg-info/PKG-INFO
+[0.919s] writing dependency_links to calculator.egg-info/dependency_links.txt
+[0.920s] writing entry points to calculator.egg-info/entry_points.txt
+[0.920s] writing requirements to calculator.egg-info/requires.txt
+[0.920s] writing top-level names to calculator.egg-info/top_level.txt
+[0.920s] writing manifest file 'calculator.egg-info/SOURCES.txt'
+[0.921s] reading manifest file 'calculator.egg-info/SOURCES.txt'
+[0.922s] writing manifest file 'calculator.egg-info/SOURCES.txt'
+[0.923s] running build_ext
+[0.923s] Creating /robot_ws/install/calculator/lib/python3.10/site-packages/calculator.egg-link (link to .)
+[0.924s] Installing argument script to /robot_ws/install/calculator/lib/calculator
+[0.924s] Installing calculator script to /robot_ws/install/calculator/lib/calculator
+[0.925s] Installing checker script to /robot_ws/install/calculator/lib/calculator
+[0.925s] Installing operator script to /robot_ws/install/calculator/lib/calculator
+[0.925s] 
+[0.925s] Installed /robot_ws/build/calculator
+[0.925s] running symlink_data
+[0.925s] creating /robot_ws/install/calculator/share/ament_index
+[0.926s] creating /robot_ws/install/calculator/share/ament_index/resource_index
+[0.926s] creating /robot_ws/install/calculator/share/ament_index/resource_index/packages
+[0.926s] symbolically linking /robot_ws/build/calculator/resource/calculator -> /robot_ws/install/calculator/share/ament_index/resource_index/packages
+[0.926s] symbolically linking /robot_ws/build/calculator/package.xml -> /robot_ws/install/calculator/share/calculator
+[0.926s] creating /robot_ws/install/calculator/share/calculator/launch
+[0.926s] symbolically linking /robot_ws/build/calculator/launch/arithmetic.launch.py -> /robot_ws/install/calculator/share/calculator/launch
+[0.927s] creating /robot_ws/install/calculator/share/calculator/param
+[0.927s] symbolically linking /robot_ws/build/calculator/param/arithmetic_config.yaml -> /robot_ws/install/calculator/share/calculator/param
+[0.951s] Invoked command in '/robot_ws/build/calculator' returned '0': PYTHONPATH=/robot_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/calculator/build --no-deps symlink_data

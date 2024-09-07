@@ -1,0 +1,28 @@
+[0.369s] Invoking command in '/robot_ws/src/tf2_python': PYTHONPATH=/robot_ws/build/tf2_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/tf2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_python build --build-base /robot_ws/build/tf2_python/build install --record /robot_ws/build/tf2_python/install.log --single-version-externally-managed install_data
+[0.520s] running egg_info
+[0.520s] writing ../../build/tf2_python/tf2_python.egg-info/PKG-INFO
+[0.521s] writing dependency_links to ../../build/tf2_python/tf2_python.egg-info/dependency_links.txt
+[0.521s] writing entry points to ../../build/tf2_python/tf2_python.egg-info/entry_points.txt
+[0.521s] writing requirements to ../../build/tf2_python/tf2_python.egg-info/requires.txt
+[0.521s] writing top-level names to ../../build/tf2_python/tf2_python.egg-info/top_level.txt
+[0.522s] reading manifest file '../../build/tf2_python/tf2_python.egg-info/SOURCES.txt'
+[0.522s] adding license file 'LICENSE'
+[0.523s] writing manifest file '../../build/tf2_python/tf2_python.egg-info/SOURCES.txt'
+[0.523s] running build
+[0.523s] running build_py
+[0.523s] copying tf2_python/turtle_tf2_listener.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[0.524s] running install
+[0.524s] running install_lib
+[0.525s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/turtle_tf2_listener.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[0.525s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[0.526s] running install_data
+[0.526s] copying launch/turtle_tf2_demo.launch.py -> /robot_ws/install/tf2_python/share/tf2_python/launch
+[0.526s] running install_egg_info
+[0.529s] removing '/robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python-0.0.0-py3.10.egg-info' (and everything under it)
+[0.529s] Copying ../../build/tf2_python/tf2_python.egg-info to /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python-0.0.0-py3.10.egg-info
+[0.530s] running install_scripts
+[0.547s] Installing static_turtle_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[0.547s] Installing turtle_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[0.547s] Installing turtle_tf2_listener script to /robot_ws/install/tf2_python/lib/tf2_python
+[0.547s] writing list of installed files to '/robot_ws/build/tf2_python/install.log'
+[0.569s] Invoked command in '/robot_ws/src/tf2_python' returned '0': PYTHONPATH=/robot_ws/build/tf2_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/tf2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_python build --build-base /robot_ws/build/tf2_python/build install --record /robot_ws/build/tf2_python/install.log --single-version-externally-managed install_data

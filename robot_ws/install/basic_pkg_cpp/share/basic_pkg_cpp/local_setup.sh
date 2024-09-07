@@ -1,1 +1,1 @@
-/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh
+/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh

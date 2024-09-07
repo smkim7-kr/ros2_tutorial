@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target turtle_tf2_listener[0m
+[0.053s] [ 20%] Built target fixed_frame_tf2_broadcaster
+[0.054s] [ 40%] Built target turtle_tf2_broadcaster
+[0.055s] [ 60%] Built target static_turtle_tf2_broadcaster
+[0.057s] [ 90%] Built target dynamic_frame_tf2_broadcaster
+[0.057s] [ 90%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[4.875s] [100%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[5.072s] [100%] Built target turtle_tf2_listener
+[5.080s] Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+[5.116s] Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_
+[5.121s] -- Install configuration: ""
+[5.121s] -- Up-to-date: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/static_turtle_tf2_broadcaster
+[5.121s] -- Up-to-date: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/turtle_tf2_broadcaster
+[5.121s] -- Installing: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/turtle_tf2_listener
+[5.123s] -- Set runtime path of "/robot_ws/install/tf2_cpp_/lib/tf2_cpp_/turtle_tf2_listener" to ""
+[5.123s] -- Up-to-date: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/fixed_frame_tf2_broadcaster
+[5.123s] -- Up-to-date: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/dynamic_frame_tf2_broadcaster
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/turtle_tf2_fixed_frame_demo.launch.py
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/static_transform_publisher.launch.py
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/turtle_tf2_demo.launch.py
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/package_run_dependencies/tf2_cpp_
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/parent_prefix_path/tf2_cpp_
+[5.124s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.sh
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.dsv
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.sh
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.dsv
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.bash
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.sh
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.zsh
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.dsv
+[5.125s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.dsv
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/packages/tf2_cpp_
+[5.125s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config.cmake
+[5.126s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config-version.cmake
+[5.126s] -- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.xml
+[5.127s] Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_

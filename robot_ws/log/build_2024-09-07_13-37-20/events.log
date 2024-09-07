@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000415] (-) JobUnselected: {'identifier': 'basic_pkg'}
+[0.000673] (-) JobUnselected: {'identifier': 'basic_pkg_cpp'}
+[0.000940] (-) JobUnselected: {'identifier': 'calculator'}
+[0.001007] (-) JobUnselected: {'identifier': 'logger'}
+[0.001048] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
+[0.001092] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.001130] (-) JobUnselected: {'identifier': 'tf2_python'}
+[0.001174] (tf2_cpp_) JobQueued: {'identifier': 'tf2_cpp_', 'dependencies': OrderedDict()}
+[0.001217] (tf2_cpp_) JobStarted: {'identifier': 'tf2_cpp_'}
+[0.008939] (tf2_cpp_) JobProgress: {'identifier': 'tf2_cpp_', 'progress': 'cmake'}
+[0.010520] (tf2_cpp_) JobProgress: {'identifier': 'tf2_cpp_', 'progress': 'build'}
+[0.010747] (tf2_cpp_) Command: {'cmd': ['/usr/bin/cmake', '--build', '/robot_ws/build/tf2_cpp_', '--', '-j8', '-l8'], 'cwd': '/robot_ws/build/tf2_cpp_', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/robot_ws/install/msg_srv_action_interface_example/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/robot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/robot_ws/install/tf2_python:/robot_ws/install/tf2_cpp_:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/msg_srv_action_interface_example:/robot_ws/install/logger:/robot_ws/install/basic_pkg_cpp:/robot_ws/install/basic_pkg:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/robot_ws/build/tf2_cpp_'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/robot_ws/install/tf2_python/lib/python3.10/site-packages:/robot_ws/build/ros2env:/robot_ws/install/ros2env/lib/python3.10/site-packages:/robot_ws/build/calculator:/robot_ws/install/calculator/lib/python3.10/site-packages:/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:/robot_ws/build/logger:/robot_ws/install/logger/lib/python3.10/site-packages:/robot_ws/build/basic_pkg:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robot_ws/install/tf2_cpp_:/robot_ws/install/msg_srv_action_interface_example:/robot_ws/install/basic_pkg_cpp:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble')]), 'shell': False}
+[0.031865] (tf2_cpp_) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098654] (-) TimerEvent: {}
+[0.130837] (tf2_cpp_) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.146012] (tf2_cpp_) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.147638] (tf2_cpp_) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.151678] (tf2_cpp_) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.158249] (tf2_cpp_) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167795] (tf2_cpp_) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.198820] (-) TimerEvent: {}
+[0.205207] (tf2_cpp_) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.225215] (tf2_cpp_) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.226474] (tf2_cpp_) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299040] (-) TimerEvent: {}
+[0.309357] (tf2_cpp_) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.340194] (tf2_cpp_) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.344743] (tf2_cpp_) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.399249] (-) TimerEvent: {}
+[0.419036] (tf2_cpp_) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.428720] (tf2_cpp_) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.497421] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.497729] (tf2_cpp_) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.497793] (tf2_cpp_) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.497834] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.497976] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.498196] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.498747] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.498827] (tf2_cpp_) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.499331] (tf2_cpp_) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.499430] (-) TimerEvent: {}
+[0.500071] (tf2_cpp_) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.515517] (tf2_cpp_) StdoutLine: {'line': b'-- Generating done\n'}
+[0.517222] (tf2_cpp_) StdoutLine: {'line': b'-- Build files have been written to: /robot_ws/build/tf2_cpp_\n'}
+[0.541982] (tf2_cpp_) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target static_turtle_tf2_broadcaster\x1b[0m\n'}
+[0.548823] (tf2_cpp_) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[0.557202] (tf2_cpp_) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[0.599600] (-) TimerEvent: {}
+[0.700120] (-) TimerEvent: {}
+[0.800590] (-) TimerEvent: {}
+[0.901077] (-) TimerEvent: {}
+[1.001680] (-) TimerEvent: {}
+[1.102141] (-) TimerEvent: {}
+[1.202684] (-) TimerEvent: {}
+[1.303059] (-) TimerEvent: {}
+[1.403497] (-) TimerEvent: {}
+[1.503937] (-) TimerEvent: {}
+[1.604334] (-) TimerEvent: {}
+[1.704744] (-) TimerEvent: {}
+[1.805212] (-) TimerEvent: {}
+[1.905664] (-) TimerEvent: {}
+[2.006343] (-) TimerEvent: {}
+[2.106973] (-) TimerEvent: {}
+[2.207376] (-) TimerEvent: {}
+[2.307968] (-) TimerEvent: {}
+[2.408405] (-) TimerEvent: {}
+[2.508986] (-) TimerEvent: {}
+[2.609451] (-) TimerEvent: {}
+[2.709807] (-) TimerEvent: {}
+[2.810219] (-) TimerEvent: {}
+[2.910629] (-) TimerEvent: {}
+[3.011098] (-) TimerEvent: {}
+[3.111544] (-) TimerEvent: {}
+[3.211996] (-) TimerEvent: {}
+[3.312421] (-) TimerEvent: {}
+[3.412877] (-) TimerEvent: {}
+[3.513331] (-) TimerEvent: {}
+[3.613796] (-) TimerEvent: {}
+[3.714214] (-) TimerEvent: {}
+[3.814620] (-) TimerEvent: {}
+[3.915021] (-) TimerEvent: {}
+[4.015524] (-) TimerEvent: {}
+[4.115970] (-) TimerEvent: {}
+[4.216360] (-) TimerEvent: {}
+[4.316809] (-) TimerEvent: {}
+[4.417658] (-) TimerEvent: {}
+[4.518086] (-) TimerEvent: {}
+[4.618591] (-) TimerEvent: {}
+[4.625545] (tf2_cpp_) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable static_turtle_tf2_broadcaster\x1b[0m\n'}
+[4.718725] (-) TimerEvent: {}
+[4.809911] (tf2_cpp_) StdoutLine: {'line': b'[ 75%] Built target static_turtle_tf2_broadcaster\n'}
+[4.818903] (-) TimerEvent: {}
+[4.919376] (-) TimerEvent: {}
+[5.019821] (-) TimerEvent: {}
+[5.120254] (-) TimerEvent: {}
+[5.220662] (-) TimerEvent: {}
+[5.321197] (-) TimerEvent: {}
+[5.421575] (-) TimerEvent: {}
+[5.522146] (-) TimerEvent: {}
+[5.622798] (-) TimerEvent: {}
+[5.723660] (-) TimerEvent: {}
+[5.824176] (-) TimerEvent: {}
+[5.924672] (-) TimerEvent: {}
+[6.025123] (-) TimerEvent: {}
+[6.125582] (-) TimerEvent: {}
+[6.226056] (-) TimerEvent: {}
+[6.326549] (-) TimerEvent: {}
+[6.427053] (-) TimerEvent: {}
+[6.527562] (-) TimerEvent: {}
+[6.628021] (-) TimerEvent: {}
+[6.728555] (-) TimerEvent: {}
+[6.829182] (-) TimerEvent: {}
+[6.929653] (-) TimerEvent: {}
+[7.030125] (-) TimerEvent: {}
+[7.130583] (-) TimerEvent: {}
+[7.231134] (-) TimerEvent: {}
+[7.331642] (-) TimerEvent: {}
+[7.432083] (-) TimerEvent: {}
+[7.532608] (-) TimerEvent: {}
+[7.633078] (-) TimerEvent: {}
+[7.733501] (-) TimerEvent: {}
+[7.834000] (-) TimerEvent: {}
+[7.934389] (-) TimerEvent: {}
+[8.034744] (-) TimerEvent: {}
+[8.135171] (-) TimerEvent: {}
+[8.235631] (-) TimerEvent: {}
+[8.336141] (-) TimerEvent: {}
+[8.430400] (tf2_cpp_) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[8.436315] (-) TimerEvent: {}
+[8.536921] (-) TimerEvent: {}
+[8.637416] (-) TimerEvent: {}
+[8.737833] (-) TimerEvent: {}
+[8.818747] (tf2_cpp_) StdoutLine: {'line': b'[100%] Built target turtle_tf2_broadcaster\n'}
+[8.828029] (tf2_cpp_) CommandEnded: {'returncode': 0}
+[8.838051] (-) TimerEvent: {}
+[8.853152] (tf2_cpp_) JobProgress: {'identifier': 'tf2_cpp_', 'progress': 'install'}
+[8.860912] (tf2_cpp_) Command: {'cmd': ['/usr/bin/cmake', '--install', '/robot_ws/build/tf2_cpp_'], 'cwd': '/robot_ws/build/tf2_cpp_', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/robot_ws/install/msg_srv_action_interface_example/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/robot_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/robot_ws/install/tf2_python:/robot_ws/install/tf2_cpp_:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/msg_srv_action_interface_example:/robot_ws/install/logger:/robot_ws/install/basic_pkg_cpp:/robot_ws/install/basic_pkg:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/robot_ws/build/tf2_cpp_'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/robot_ws/install/tf2_python/lib/python3.10/site-packages:/robot_ws/build/ros2env:/robot_ws/install/ros2env/lib/python3.10/site-packages:/robot_ws/build/calculator:/robot_ws/install/calculator/lib/python3.10/site-packages:/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:/robot_ws/build/logger:/robot_ws/install/logger/lib/python3.10/site-packages:/robot_ws/build/basic_pkg:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/robot_ws/install/tf2_cpp_:/robot_ws/install/msg_srv_action_interface_example:/robot_ws/install/basic_pkg_cpp:/robot_ws/install/tf2_python:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/logger:/robot_ws/install/basic_pkg:/opt/ros/humble')]), 'shell': False}
+[8.866036] (tf2_cpp_) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.866240] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/static_turtle_tf2_broadcaster\n'}
+[8.867216] (tf2_cpp_) StdoutLine: {'line': b'-- Set runtime path of "/robot_ws/install/tf2_cpp_/lib/tf2_cpp_/static_turtle_tf2_broadcaster" to ""\n'}
+[8.867425] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/turtle_tf2_broadcaster\n'}
+[8.869614] (tf2_cpp_) StdoutLine: {'line': b'-- Set runtime path of "/robot_ws/install/tf2_cpp_/lib/tf2_cpp_/turtle_tf2_broadcaster" to ""\n'}
+[8.869867] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch\n'}
+[8.870098] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/static_transform_publisher.launch.py\n'}
+[8.870231] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/launch/turtle_tf2_demo.launch.py\n'}
+[8.870451] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/package_run_dependencies/tf2_cpp_\n'}
+[8.870574] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/parent_prefix_path/tf2_cpp_\n'}
+[8.870705] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.sh\n'}
+[8.870844] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.dsv\n'}
+[8.870951] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.sh\n'}
+[8.871060] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.dsv\n'}
+[8.871209] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.bash\n'}
+[8.871357] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.sh\n'}
+[8.871509] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.zsh\n'}
+[8.871900] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.dsv\n'}
+[8.872008] (tf2_cpp_) StdoutLine: {'line': b'-- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.dsv\n'}
+[8.872089] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/packages/tf2_cpp_\n'}
+[8.872341] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config.cmake\n'}
+[8.872638] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config-version.cmake\n'}
+[8.873021] (tf2_cpp_) StdoutLine: {'line': b'-- Up-to-date: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.xml\n'}
+[8.874339] (tf2_cpp_) CommandEnded: {'returncode': 0}
+[8.910900] (tf2_cpp_) JobEnded: {'identifier': 'tf2_cpp_', 'rc': 0}
+[8.911691] (-) EventReactorShutdown: {}

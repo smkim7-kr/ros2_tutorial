@@ -1,0 +1,72 @@
+[0.025s] Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/tf2_cpp_ -DCMAKE_INSTALL_PREFIX=/robot_ws/install/tf2_cpp_
+[0.304s] -- The C compiler identification is GNU 11.4.0
+[0.459s] -- The CXX compiler identification is GNU 11.4.0
+[0.476s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.555s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.556s] -- Detecting C compile features
+[0.557s] -- Detecting C compile features - done
+[0.562s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.766s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.892s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.955s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.963s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.977s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.107s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.162s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.166s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.255s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.276s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.303s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.320s] -- Looking for pthread.h
+[1.406s] -- Looking for pthread.h - found
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.458s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.459s] -- Found Threads: TRUE  
+[1.525s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.541s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.696s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.717s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.801s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.801s] -- Configured cppcheck include dirs: 
+[1.801s] -- Configured cppcheck exclude dirs and/or files: 
+[1.803s] -- Added test 'lint_cmake' to check CMake code style
+[1.805s] -- Added test 'uncrustify' to check C / C++ code style
+[1.805s] -- Configured uncrustify additional arguments: 
+[1.806s] -- Added test 'xmllint' to check XML markup files
+[1.809s] -- Configuring done
+[1.820s] -- Generating done
+[1.821s] -- Build files have been written to: /robot_ws/build/tf2_cpp_
+[1.830s] Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/tf2_cpp_ -DCMAKE_INSTALL_PREFIX=/robot_ws/install/tf2_cpp_
+[1.833s] Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+[1.870s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[5.585s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[5.828s] [100%] Built target static_turtle_tf2_broadcaster
+[5.836s] Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+[5.861s] Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_
+[5.866s] -- Install configuration: ""
+[5.866s] -- Installing: /robot_ws/install/tf2_cpp_/lib/tf2_cpp_/static_turtle_tf2_broadcaster
+[5.867s] -- Set runtime path of "/robot_ws/install/tf2_cpp_/lib/tf2_cpp_/static_turtle_tf2_broadcaster" to ""
+[5.867s] -- Installing: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/package_run_dependencies/tf2_cpp_
+[5.868s] -- Installing: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/parent_prefix_path/tf2_cpp_
+[5.868s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.sh
+[5.868s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/ament_prefix_path.dsv
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.sh
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/environment/path.dsv
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.bash
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.sh
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.zsh
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/local_setup.dsv
+[5.869s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.dsv
+[5.870s] -- Installing: /robot_ws/install/tf2_cpp_/share/ament_index/resource_index/packages/tf2_cpp_
+[5.870s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config.cmake
+[5.870s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/cmake/tf2_cpp_Config-version.cmake
+[5.870s] -- Installing: /robot_ws/install/tf2_cpp_/share/tf2_cpp_/package.xml
+[5.872s] Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_

@@ -1,8 +1,8 @@
-# Install script for directory: /home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp
+# Install script for directory: /robot_ws/src/basic_pkg_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp")
+  set(CMAKE_INSTALL_PREFIX "/robot_ws/install/basic_pkg_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/robot_ws/build/basic_pkg_cpp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/robot_ws/build/basic_pkg_cpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp
+CMAKE_SOURCE_DIR = /robot_ws/src/basic_pkg_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp
+CMAKE_BINARY_DIR = /robot_ws/build/basic_pkg_cpp
 
 # Utility rule file for basic_pkg_cpp_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/basic_pkg_cpp_uninstall.dir/compiler_depend.make
 include CMakeFiles/basic_pkg_cpp_uninstall.dir/progress.make
 
 CMakeFiles/basic_pkg_cpp_uninstall:
-	/usr/bin/cmake -P /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /robot_ws/build/basic_pkg_cpp/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 basic_pkg_cpp_uninstall: CMakeFiles/basic_pkg_cpp_uninstall
 basic_pkg_cpp_uninstall: CMakeFiles/basic_pkg_cpp_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/basic_pkg_cpp_uninstall.dir/clean:
 .PHONY : CMakeFiles/basic_pkg_cpp_uninstall.dir/clean
 
 CMakeFiles/basic_pkg_cpp_uninstall.dir/depend:
-	cd /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp /home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp /home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/CMakeFiles/basic_pkg_cpp_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /robot_ws/build/basic_pkg_cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /robot_ws/src/basic_pkg_cpp /robot_ws/src/basic_pkg_cpp /robot_ws/build/basic_pkg_cpp /robot_ws/build/basic_pkg_cpp /robot_ws/build/basic_pkg_cpp/CMakeFiles/basic_pkg_cpp_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/basic_pkg_cpp_uninstall.dir/depend
 

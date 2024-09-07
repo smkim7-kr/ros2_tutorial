@@ -1,0 +1,27 @@
+[1.080s] Invoking command in '/robot_ws/build/basic_pkg': PYTHONPATH=/robot_ws/build/basic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/basic_pkg/build --no-deps symlink_data
+[1.354s] running develop
+[1.355s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.355s]   warnings.warn(
+[1.530s] running egg_info
+[1.530s] creating basic_pkg.egg-info
+[1.530s] writing basic_pkg.egg-info/PKG-INFO
+[1.530s] writing dependency_links to basic_pkg.egg-info/dependency_links.txt
+[1.531s] writing entry points to basic_pkg.egg-info/entry_points.txt
+[1.531s] writing requirements to basic_pkg.egg-info/requires.txt
+[1.531s] writing top-level names to basic_pkg.egg-info/top_level.txt
+[1.531s] writing manifest file 'basic_pkg.egg-info/SOURCES.txt'
+[1.533s] reading manifest file 'basic_pkg.egg-info/SOURCES.txt'
+[1.534s] writing manifest file 'basic_pkg.egg-info/SOURCES.txt'
+[1.536s] running build_ext
+[1.536s] Creating /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic-pkg.egg-link (link to .)
+[1.537s] Installing helloworld_publisher script to /robot_ws/install/basic_pkg/lib/basic_pkg
+[1.537s] Installing helloworld_subscriber script to /robot_ws/install/basic_pkg/lib/basic_pkg
+[1.538s] 
+[1.538s] Installed /robot_ws/build/basic_pkg
+[1.538s] running symlink_data
+[1.538s] creating /robot_ws/install/basic_pkg/share/ament_index
+[1.538s] creating /robot_ws/install/basic_pkg/share/ament_index/resource_index
+[1.538s] creating /robot_ws/install/basic_pkg/share/ament_index/resource_index/packages
+[1.539s] symbolically linking /robot_ws/build/basic_pkg/resource/basic_pkg -> /robot_ws/install/basic_pkg/share/ament_index/resource_index/packages
+[1.539s] symbolically linking /robot_ws/build/basic_pkg/package.xml -> /robot_ws/install/basic_pkg/share/basic_pkg
+[1.588s] Invoked command in '/robot_ws/build/basic_pkg' returned '0': PYTHONPATH=/robot_ws/build/basic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/basic_pkg/build --no-deps symlink_data

@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/robot_ws/install/basic_pkg_cpp/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/smkim/ros2_tutorials/robot_ws/install/basic_pkg_cpp/${destination}")
+      set(destination "/robot_ws/install/basic_pkg_cpp/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "helloworld_publisher" "helloworld_subscriber" "DESTINATION" "lib/basic_pkg_cpp")
-include("/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/robot_ws/build/basic_pkg_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/basic_pkg_cpp/environment")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/basic_pkg_cpp/environment")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/basic_pkg_cpp")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/basic_pkg_cpp")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/basic_pkg_cpp")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/basic_pkg_cpp")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/basic_pkg_cpp")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/basic_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake" "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig-version.cmake" "DESTINATION" "share/basic_pkg_cpp/cmake")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake" "/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig-version.cmake" "DESTINATION" "share/basic_pkg_cpp/cmake")
+# install(FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake" "/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig-version.cmake" "DESTINATION" "share/basic_pkg_cpp/cmake")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake" "/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig-version.cmake" "DESTINATION" "share/basic_pkg_cpp/cmake")
 
-# install(FILES "/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp/package.xml" "DESTINATION" "share/basic_pkg_cpp")
-ament_cmake_symlink_install_files("/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp" FILES "/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp/package.xml" "DESTINATION" "share/basic_pkg_cpp")
+# install(FILES "/robot_ws/src/basic_pkg_cpp/package.xml" "DESTINATION" "share/basic_pkg_cpp")
+ament_cmake_symlink_install_files("/robot_ws/src/basic_pkg_cpp" FILES "/robot_ws/src/basic_pkg_cpp/package.xml" "DESTINATION" "share/basic_pkg_cpp")

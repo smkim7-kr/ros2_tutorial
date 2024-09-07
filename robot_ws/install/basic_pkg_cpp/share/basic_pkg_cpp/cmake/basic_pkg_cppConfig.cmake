@@ -1,1 +1,1 @@
-/home/smkim/ros2_tutorials/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake
+/robot_ws/build/basic_pkg_cpp/ament_cmake_core/basic_pkg_cppConfig.cmake

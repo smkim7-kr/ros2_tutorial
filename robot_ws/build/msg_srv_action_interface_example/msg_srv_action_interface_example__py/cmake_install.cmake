@@ -1,8 +1,8 @@
-# Install script for directory: /home/smkim/ros2_tutorials/robot_ws/build/msg_srv_action_interface_example/msg_srv_action_interface_example__py
+# Install script for directory: /robot_ws/build/msg_srv_action_interface_example/msg_srv_action_interface_example__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/smkim/ros2_tutorials/robot_ws/install/msg_srv_action_interface_example")
+  set(CMAKE_INSTALL_PREFIX "/robot_ws/install/msg_srv_action_interface_example")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

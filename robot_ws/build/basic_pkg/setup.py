@@ -1,1 +1,1 @@
-/home/smkim/ros2_tutorials/robot_ws/src/basic_pkg/setup.py
+/robot_ws/src/basic_pkg/setup.py

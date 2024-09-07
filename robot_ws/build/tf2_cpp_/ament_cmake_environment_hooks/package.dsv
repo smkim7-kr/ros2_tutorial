@@ -1,0 +1,4 @@
+source;share/tf2_cpp_/local_setup.bash
+source;share/tf2_cpp_/local_setup.dsv
+source;share/tf2_cpp_/local_setup.sh
+source;share/tf2_cpp_/local_setup.zsh

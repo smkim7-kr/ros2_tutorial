@@ -1,0 +1,26 @@
+[1.084s] Invoking command in '/robot_ws/build/logger': PYTHONPATH=/robot_ws/build/logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/logger/build --no-deps symlink_data
+[1.356s] running develop
+[1.356s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.356s]   warnings.warn(
+[1.532s] running egg_info
+[1.532s] creating logger.egg-info
+[1.532s] writing logger.egg-info/PKG-INFO
+[1.533s] writing dependency_links to logger.egg-info/dependency_links.txt
+[1.533s] writing entry points to logger.egg-info/entry_points.txt
+[1.533s] writing requirements to logger.egg-info/requires.txt
+[1.533s] writing top-level names to logger.egg-info/top_level.txt
+[1.533s] writing manifest file 'logger.egg-info/SOURCES.txt'
+[1.536s] reading manifest file 'logger.egg-info/SOURCES.txt'
+[1.537s] writing manifest file 'logger.egg-info/SOURCES.txt'
+[1.539s] running build_ext
+[1.539s] Creating /robot_ws/install/logger/lib/python3.10/site-packages/logger.egg-link (link to .)
+[1.539s] Installing logging script to /robot_ws/install/logger/lib/logger
+[1.540s] 
+[1.540s] Installed /robot_ws/build/logger
+[1.541s] running symlink_data
+[1.541s] creating /robot_ws/install/logger/share/ament_index
+[1.541s] creating /robot_ws/install/logger/share/ament_index/resource_index
+[1.541s] creating /robot_ws/install/logger/share/ament_index/resource_index/packages
+[1.541s] symbolically linking /robot_ws/build/logger/resource/logger -> /robot_ws/install/logger/share/ament_index/resource_index/packages
+[1.541s] symbolically linking /robot_ws/build/logger/package.xml -> /robot_ws/install/logger/share/logger
+[1.614s] Invoked command in '/robot_ws/build/logger' returned '0': PYTHONPATH=/robot_ws/build/logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /robot_ws/build/logger/build --no-deps symlink_data

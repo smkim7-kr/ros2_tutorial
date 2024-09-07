@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;/home/smkim/ros2_tutorials/robot_ws/build/logger
+prepend-non-duplicate;PYTHONPATH;/robot_ws/build/logger

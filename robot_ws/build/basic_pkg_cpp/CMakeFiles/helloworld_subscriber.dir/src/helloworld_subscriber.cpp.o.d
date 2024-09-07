@@ -1,5 +1,5 @@
 CMakeFiles/helloworld_subscriber.dir/src/helloworld_subscriber.cpp.o: \
- /home/smkim/ros2_tutorials/robot_ws/src/basic_pkg_cpp/src/helloworld_subscriber.cpp \
+ /robot_ws/src/basic_pkg_cpp/src/helloworld_subscriber.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/functional \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

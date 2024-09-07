@@ -1,1 +1,1 @@
-/home/smkim/ros2_tutorials/robot_ws/build/calculator/launch/arithmetic.launch.py
+/robot_ws/build/calculator/launch/arithmetic.launch.py

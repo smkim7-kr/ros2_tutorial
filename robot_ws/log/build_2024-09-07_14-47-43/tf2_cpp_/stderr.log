@@ -1,0 +1,7 @@
+[01m[K/robot_ws/src/tf2_cpp_/src/turtle_tf2_listener_debug.cpp:[m[K In member function ‘[01m[Kvoid FrameListener::on_timer()[m[K’:
+[01m[K/robot_ws/src/tf2_cpp_/src/turtle_tf2_listener_debug.cpp:75:11:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformStamped[m[K’ was not declared in this scope
+   75 |           [01;31m[KtransformStamped[m[K = tf_buffer_->lookupTransform(
+      |           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_tf2_listener_debug.dir/build.make:76: CMakeFiles/turtle_tf2_listener_debug.dir/src/turtle_tf2_listener_debug.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/turtle_tf2_listener_debug.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

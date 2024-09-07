@@ -1,0 +1,6 @@
+Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/tf2_cpp_ -DCMAKE_INSTALL_PREFIX=/robot_ws/install/tf2_cpp_
+Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/tf2_cpp_ -DCMAKE_INSTALL_PREFIX=/robot_ws/install/tf2_cpp_
+Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/tf2_cpp_ -- -j8 -l8
+Invoking command in '/robot_ws/build/tf2_cpp_': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_
+Invoked command in '/robot_ws/build/tf2_cpp_' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/tf2_cpp_

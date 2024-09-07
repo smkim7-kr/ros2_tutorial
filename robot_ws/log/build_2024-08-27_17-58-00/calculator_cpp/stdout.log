@@ -1,7 +1,0 @@
-[ 50%] Built target checker
-[ 62%] [32mBuilding CXX object CMakeFiles/calculator.dir/src/calculator.cpp.o[0m
-[ 62%] Built target operator
-[ 75%] [32mBuilding CXX object CMakeFiles/argument.dir/src/argument.cpp.o[0m
-[ 87%] [32m[1mLinking CXX executable argument[0m
-[ 87%] Built target argument
-[100%] [32m[1mLinking CXX executable calculator[0m
