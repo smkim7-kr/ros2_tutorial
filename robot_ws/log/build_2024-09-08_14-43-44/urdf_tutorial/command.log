@@ -1,0 +1,6 @@
+Invoking command in '/robot_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/robot_ws/install/urdf_tutorial
+Invoked command in '/robot_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/robot_ws/install/urdf_tutorial
+Invoking command in '/robot_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/urdf_tutorial -- -j8 -l8
+Invoked command in '/robot_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/urdf_tutorial -- -j8 -l8
+Invoking command in '/robot_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/urdf_tutorial
+Invoked command in '/robot_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/urdf_tutorial

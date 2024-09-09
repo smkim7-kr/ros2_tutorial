@@ -65,8 +65,8 @@ class FrameListener(Node):
                 # and send velocity commands for turtle2 to reach target_frame
                 try:
                     t = self.tf_buffer.lookup_transform(
-                        to_frame_rel, # target frame
-                        from_frame_rel, # source frame
+                        to_frame_rel, # source frame
+                        from_frame_rel, # target frame
                         rclpy.time.Time()) # time to listen transform
                 except TransformException as ex:
                     self.get_logger().info(

@@ -1,1 +1,17 @@
-/robot_ws/build/msg_srv_action_interface_example/rosidl_adapter/msg_srv_action_interface_example/msg/ArithmeticArgument.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_srv_action_interface_example/msg/ArithmeticArgument.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module msg_srv_action_interface_example {
+  module msg {
+    struct ArithmeticArgument {
+      builtin_interfaces::msg::Time stamp;
+
+      float argument_a;
+
+      float argument_b;
+    };
+  };
+};

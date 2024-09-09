@@ -315,17 +315,17 @@ msg_srv_action_interface_example__rosidl_typesupport_cpp/fast:
 .PHONY : msg_srv_action_interface_example__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_msg_srv_action_interface_example
+# Target rules for targets named ament_cmake_python_copy_msg_srv_action_interface_example
 
 # Build rule for target.
-ament_cmake_python_symlink_msg_srv_action_interface_example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_msg_srv_action_interface_example
-.PHONY : ament_cmake_python_symlink_msg_srv_action_interface_example
+ament_cmake_python_copy_msg_srv_action_interface_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_msg_srv_action_interface_example
+.PHONY : ament_cmake_python_copy_msg_srv_action_interface_example
 
 # fast build rule for target.
-ament_cmake_python_symlink_msg_srv_action_interface_example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_msg_srv_action_interface_example.dir/build.make CMakeFiles/ament_cmake_python_symlink_msg_srv_action_interface_example.dir/build
-.PHONY : ament_cmake_python_symlink_msg_srv_action_interface_example/fast
+ament_cmake_python_copy_msg_srv_action_interface_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_msg_srv_action_interface_example.dir/build.make CMakeFiles/ament_cmake_python_copy_msg_srv_action_interface_example.dir/build
+.PHONY : ament_cmake_python_copy_msg_srv_action_interface_example/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_msg_srv_action_interface_example_egg
@@ -1067,7 +1067,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_msg_srv_action_interface_example_egg"
-	@echo "... ament_cmake_python_symlink_msg_srv_action_interface_example"
+	@echo "... ament_cmake_python_copy_msg_srv_action_interface_example"
 	@echo "... msg_srv_action_interface_example"
 	@echo "... msg_srv_action_interface_example__cpp"
 	@echo "... msg_srv_action_interface_example__py"

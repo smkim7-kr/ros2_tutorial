@@ -1,1 +1,1 @@
-/robot_ws/build/msg_srv_action_interface_example/rosidl_generator_py/msg_srv_action_interface_example/action/__init__.py
+from msg_srv_action_interface_example.action._arithmetic_checker import ArithmeticChecker  # noqa: F401

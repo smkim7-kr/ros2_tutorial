@@ -1,0 +1,53 @@
+[0.800s] Invoking command in '/robot_ws/src/calculator': AMENT_PREFIX_PATH=/robot_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robot_ws/install/msg_srv_action_interface_example LD_LIBRARY_PATH=/robot_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robot_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/calculator/lib/python3.10/site-packages:/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /robot_ws/build/calculator/build install --record /robot_ws/build/calculator/install.log --single-version-externally-managed install_data
+[1.162s] running egg_info
+[1.164s] creating ../../build/calculator/calculator.egg-info
+[1.169s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[1.171s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[1.171s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[1.173s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[1.173s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[1.176s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.179s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.181s] running build_py
+[1.182s] creating /robot_ws/build/calculator/build
+[1.182s] creating /robot_ws/build/calculator/build/lib
+[1.183s] creating /robot_ws/build/calculator/build/lib/calculator
+[1.183s] copying calculator/__init__.py -> /robot_ws/build/calculator/build/lib/calculator
+[1.184s] copying calculator/calculator.py -> /robot_ws/build/calculator/build/lib/calculator
+[1.185s] copying calculator/argument.py -> /robot_ws/build/calculator/build/lib/calculator
+[1.185s] copying calculator/operator.py -> /robot_ws/build/calculator/build/lib/calculator
+[1.186s] copying calculator/checker.py -> /robot_ws/build/calculator/build/lib/calculator
+[1.187s] running install
+[1.190s] running install_lib
+[1.192s] creating /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.193s] copying /robot_ws/build/calculator/build/lib/calculator/__init__.py -> /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.199s] copying /robot_ws/build/calculator/build/lib/calculator/calculator.py -> /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.200s] copying /robot_ws/build/calculator/build/lib/calculator/argument.py -> /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.200s] copying /robot_ws/build/calculator/build/lib/calculator/operator.py -> /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.200s] copying /robot_ws/build/calculator/build/lib/calculator/checker.py -> /robot_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.204s] byte-compiling /robot_ws/install/calculator/lib/python3.10/site-packages/calculator/__init__.py to __init__.cpython-310.pyc
+[1.204s] byte-compiling /robot_ws/install/calculator/lib/python3.10/site-packages/calculator/calculator.py to calculator.cpython-310.pyc
+[1.210s] byte-compiling /robot_ws/install/calculator/lib/python3.10/site-packages/calculator/argument.py to argument.cpython-310.pyc
+[1.223s] byte-compiling /robot_ws/install/calculator/lib/python3.10/site-packages/calculator/operator.py to operator.cpython-310.pyc
+[1.223s] byte-compiling /robot_ws/install/calculator/lib/python3.10/site-packages/calculator/checker.py to checker.cpython-310.pyc
+[1.229s] running install_data
+[1.232s] creating /robot_ws/install/calculator/share/ament_index
+[1.232s] creating /robot_ws/install/calculator/share/ament_index/resource_index
+[1.232s] creating /robot_ws/install/calculator/share/ament_index/resource_index/packages
+[1.232s] copying resource/calculator -> /robot_ws/install/calculator/share/ament_index/resource_index/packages
+[1.232s] copying package.xml -> /robot_ws/install/calculator/share/calculator
+[1.238s] creating /robot_ws/install/calculator/share/calculator/launch
+[1.239s] copying launch/arithmetic.launch.py -> /robot_ws/install/calculator/share/calculator/launch
+[1.239s] creating /robot_ws/install/calculator/share/calculator/param
+[1.239s] copying param/arithmetic_config.yaml -> /robot_ws/install/calculator/share/calculator/param
+[1.239s] running install_egg_info
+[1.240s] Copying ../../build/calculator/calculator.egg-info to /robot_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[1.254s] running install_scripts
+[1.304s] Installing argument script to /robot_ws/install/calculator/lib/calculator
+[1.305s] Installing calculator script to /robot_ws/install/calculator/lib/calculator
+[1.305s] Installing checker script to /robot_ws/install/calculator/lib/calculator
+[1.306s] Installing operator script to /robot_ws/install/calculator/lib/calculator
+[1.306s] writing list of installed files to '/robot_ws/build/calculator/install.log'
+[1.373s] Invoked command in '/robot_ws/src/calculator' returned '0': AMENT_PREFIX_PATH=/robot_ws/install/msg_srv_action_interface_example:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/robot_ws/install/msg_srv_action_interface_example LD_LIBRARY_PATH=/robot_ws/install/msg_srv_action_interface_example/lib:${LD_LIBRARY_PATH} PYTHONPATH=/robot_ws/build/calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/calculator/lib/python3.10/site-packages:/robot_ws/install/msg_srv_action_interface_example/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /robot_ws/build/calculator/build install --record /robot_ws/build/calculator/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[1.311s] Invoking command in '/robot_ws/src/logger': PYTHONPATH=/robot_ws/build/logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/logger build --build-base /robot_ws/build/logger/build install --record /robot_ws/build/logger/install.log --single-version-externally-managed install_data
+[1.624s] running egg_info
+[1.624s] creating ../../build/logger/logger.egg-info
+[1.624s] writing ../../build/logger/logger.egg-info/PKG-INFO
+[1.624s] writing dependency_links to ../../build/logger/logger.egg-info/dependency_links.txt
+[1.624s] writing entry points to ../../build/logger/logger.egg-info/entry_points.txt
+[1.625s] writing requirements to ../../build/logger/logger.egg-info/requires.txt
+[1.625s] writing top-level names to ../../build/logger/logger.egg-info/top_level.txt
+[1.625s] writing manifest file '../../build/logger/logger.egg-info/SOURCES.txt'
+[1.625s] reading manifest file '../../build/logger/logger.egg-info/SOURCES.txt'
+[1.625s] writing manifest file '../../build/logger/logger.egg-info/SOURCES.txt'
+[1.625s] running build
+[1.625s] running build_py
+[1.625s] creating /robot_ws/build/logger/build
+[1.625s] creating /robot_ws/build/logger/build/lib
+[1.625s] creating /robot_ws/build/logger/build/lib/logger
+[1.625s] copying logger/__init__.py -> /robot_ws/build/logger/build/lib/logger
+[1.625s] copying logger/logger.py -> /robot_ws/build/logger/build/lib/logger
+[1.625s] running install
+[1.626s] running install_lib
+[1.626s] creating /robot_ws/install/logger/lib/python3.10/site-packages/logger
+[1.626s] copying /robot_ws/build/logger/build/lib/logger/__init__.py -> /robot_ws/install/logger/lib/python3.10/site-packages/logger
+[1.626s] copying /robot_ws/build/logger/build/lib/logger/logger.py -> /robot_ws/install/logger/lib/python3.10/site-packages/logger
+[1.626s] byte-compiling /robot_ws/install/logger/lib/python3.10/site-packages/logger/__init__.py to __init__.cpython-310.pyc
+[1.626s] byte-compiling /robot_ws/install/logger/lib/python3.10/site-packages/logger/logger.py to logger.cpython-310.pyc
+[1.626s] running install_data
+[1.626s] creating /robot_ws/install/logger/share/ament_index
+[1.626s] creating /robot_ws/install/logger/share/ament_index/resource_index
+[1.626s] creating /robot_ws/install/logger/share/ament_index/resource_index/packages
+[1.626s] copying resource/logger -> /robot_ws/install/logger/share/ament_index/resource_index/packages
+[1.626s] copying package.xml -> /robot_ws/install/logger/share/logger
+[1.626s] running install_egg_info
+[1.626s] Copying ../../build/logger/logger.egg-info to /robot_ws/install/logger/lib/python3.10/site-packages/logger-0.0.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.636s] Installing logging script to /robot_ws/install/logger/lib/logger
+[1.637s] writing list of installed files to '/robot_ws/build/logger/install.log'
+[1.685s] Invoked command in '/robot_ws/src/logger' returned '0': PYTHONPATH=/robot_ws/build/logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/logger build --build-base /robot_ws/build/logger/build install --record /robot_ws/build/logger/install.log --single-version-externally-managed install_data

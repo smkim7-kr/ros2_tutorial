@@ -1,1 +1,3 @@
-/robot_ws/src/msg_srv_action_interface_example/msg/ArithmeticArgument.msg
+builtin_interfaces/Time stamp
+float32 argument_a
+float32 argument_b

@@ -1,0 +1,63 @@
+[1.279s] Invoking command in '/robot_ws/src/tf2_python': PYTHONPATH=/robot_ws/build/tf2_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/tf2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_python build --build-base /robot_ws/build/tf2_python/build install --record /robot_ws/build/tf2_python/install.log --single-version-externally-managed install_data
+[1.545s] running egg_info
+[1.545s] creating ../../build/tf2_python/tf2_python.egg-info
+[1.546s] writing ../../build/tf2_python/tf2_python.egg-info/PKG-INFO
+[1.546s] writing dependency_links to ../../build/tf2_python/tf2_python.egg-info/dependency_links.txt
+[1.546s] writing entry points to ../../build/tf2_python/tf2_python.egg-info/entry_points.txt
+[1.546s] writing requirements to ../../build/tf2_python/tf2_python.egg-info/requires.txt
+[1.547s] writing top-level names to ../../build/tf2_python/tf2_python.egg-info/top_level.txt
+[1.547s] writing manifest file '../../build/tf2_python/tf2_python.egg-info/SOURCES.txt'
+[1.549s] reading manifest file '../../build/tf2_python/tf2_python.egg-info/SOURCES.txt'
+[1.549s] adding license file 'LICENSE'
+[1.550s] writing manifest file '../../build/tf2_python/tf2_python.egg-info/SOURCES.txt'
+[1.550s] running build
+[1.550s] running build_py
+[1.550s] creating /robot_ws/build/tf2_python/build
+[1.551s] creating /robot_ws/build/tf2_python/build/lib
+[1.551s] creating /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.551s] copying tf2_python/turtle_tf2_broadcaster.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/__init__.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/static_turtle_tf2_broadcaster.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/turtle_tf2_message_broadcaster.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/fixed_frame_tf2_broadcaster.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/turtle_tf2_listener.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.552s] copying tf2_python/dynamic_frame_tf2_broadcaster.py -> /robot_ws/build/tf2_python/build/lib/tf2_python
+[1.553s] running install
+[1.553s] running install_lib
+[1.554s] creating /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.554s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/turtle_tf2_broadcaster.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/__init__.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/static_turtle_tf2_broadcaster.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/turtle_tf2_message_broadcaster.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/fixed_frame_tf2_broadcaster.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/turtle_tf2_listener.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.555s] copying /robot_ws/build/tf2_python/build/lib/tf2_python/dynamic_frame_tf2_broadcaster.py -> /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python
+[1.556s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[1.557s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/__init__.py to __init__.cpython-310.pyc
+[1.557s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-310.pyc
+[1.558s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/turtle_tf2_message_broadcaster.py to turtle_tf2_message_broadcaster.cpython-310.pyc
+[1.558s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-310.pyc
+[1.559s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+[1.560s] byte-compiling /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-310.pyc
+[1.560s] running install_data
+[1.560s] creating /robot_ws/install/tf2_python/share/ament_index
+[1.560s] creating /robot_ws/install/tf2_python/share/ament_index/resource_index
+[1.561s] creating /robot_ws/install/tf2_python/share/ament_index/resource_index/packages
+[1.561s] copying resource/tf2_python -> /robot_ws/install/tf2_python/share/ament_index/resource_index/packages
+[1.561s] copying package.xml -> /robot_ws/install/tf2_python/share/tf2_python
+[1.561s] creating /robot_ws/install/tf2_python/share/tf2_python/launch
+[1.561s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /robot_ws/install/tf2_python/share/tf2_python/launch
+[1.561s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /robot_ws/install/tf2_python/share/tf2_python/launch
+[1.561s] copying launch/turtle_tf2_demo.launch.py -> /robot_ws/install/tf2_python/share/tf2_python/launch
+[1.562s] copying launch/publish_static_transform.launch.py -> /robot_ws/install/tf2_python/share/tf2_python/launch
+[1.562s] running install_egg_info
+[1.564s] Copying ../../build/tf2_python/tf2_python.egg-info to /robot_ws/install/tf2_python/lib/python3.10/site-packages/tf2_python-0.0.0-py3.10.egg-info
+[1.565s] running install_scripts
+[1.595s] Installing dynamic_frame_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] Installing fixed_frame_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] Installing static_turtle_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] Installing turtle_tf2_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] Installing turtle_tf2_listener script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] Installing turtle_tf2_message_broadcaster script to /robot_ws/install/tf2_python/lib/tf2_python
+[1.596s] writing list of installed files to '/robot_ws/build/tf2_python/install.log'
+[1.633s] Invoked command in '/robot_ws/src/tf2_python' returned '0': PYTHONPATH=/robot_ws/build/tf2_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/tf2_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_python build --build-base /robot_ws/build/tf2_python/build install --record /robot_ws/build/tf2_python/install.log --single-version-externally-managed install_data

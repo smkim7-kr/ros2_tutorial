@@ -1,0 +1,6 @@
+Invoking command in '/robot_ws/build/basic_pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/basic_pkg_cpp -DCMAKE_INSTALL_PREFIX=/robot_ws/install/basic_pkg_cpp
+Invoked command in '/robot_ws/build/basic_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/basic_pkg_cpp -DCMAKE_INSTALL_PREFIX=/robot_ws/install/basic_pkg_cpp
+Invoking command in '/robot_ws/build/basic_pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/basic_pkg_cpp -- -j8 -l8
+Invoked command in '/robot_ws/build/basic_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/basic_pkg_cpp -- -j8 -l8
+Invoking command in '/robot_ws/build/basic_pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/basic_pkg_cpp
+Invoked command in '/robot_ws/build/basic_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/basic_pkg_cpp

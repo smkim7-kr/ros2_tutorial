@@ -1,1 +1,5 @@
-/robot_ws/build/calculator/param/arithmetic_config.yaml
+/**: # namespace and node name
+  ros__parameters:
+    qos_depth: 30
+    min_random_num: 0
+    max_random_num: 9

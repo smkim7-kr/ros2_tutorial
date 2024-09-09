@@ -1,1 +1,0 @@
-/robot_ws/build/tf2_python/launch/publish_static_transform.py

@@ -57,7 +57,7 @@ public:
       point_sub_, *tf2_buffer_, target_frame_, 100, this->get_node_logging_interface(),
       this->get_node_clock_interface(), buffer_timeout);
     // Register a callback with tf2_ros::MessageFilter to be called when transforms are available
-    tf2_filter_->registerCallback(&PoseDrawer::msgCallback, this);
+    tf2_filter_->registerCallback(&PoseDrawer::msgCallback, this); 
   }
 
 private:

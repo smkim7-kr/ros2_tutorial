@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ros2env
+Version: 0.6.0
+Summary: ROS 2 example package for the ROS 2 command line tools.
+Home-page: UNKNOWN
+Author: Jeremie Deray, Pyo, Darby Lim
+Author-email: jeremie.deray@canonical.org, passionvirus@gmail.com, routiful@gmail.com
+Maintainer: Pyo
+Maintainer-email: passionvirus@gmail.com
+License: Apache License, Version 2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+UNKNOWN
+

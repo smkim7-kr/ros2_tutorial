@@ -1,0 +1,41 @@
+[1.315s] Invoking command in '/robot_ws/src/basic_pkg': PYTHONPATH=/robot_ws/build/basic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_pkg build --build-base /robot_ws/build/basic_pkg/build install --record /robot_ws/build/basic_pkg/install.log --single-version-externally-managed install_data
+[1.611s] running egg_info
+[1.611s] creating ../../build/basic_pkg/basic_pkg.egg-info
+[1.611s] writing ../../build/basic_pkg/basic_pkg.egg-info/PKG-INFO
+[1.611s] writing dependency_links to ../../build/basic_pkg/basic_pkg.egg-info/dependency_links.txt
+[1.611s] writing entry points to ../../build/basic_pkg/basic_pkg.egg-info/entry_points.txt
+[1.611s] writing requirements to ../../build/basic_pkg/basic_pkg.egg-info/requires.txt
+[1.611s] writing top-level names to ../../build/basic_pkg/basic_pkg.egg-info/top_level.txt
+[1.611s] writing manifest file '../../build/basic_pkg/basic_pkg.egg-info/SOURCES.txt'
+[1.611s] reading manifest file '../../build/basic_pkg/basic_pkg.egg-info/SOURCES.txt'
+[1.611s] writing manifest file '../../build/basic_pkg/basic_pkg.egg-info/SOURCES.txt'
+[1.611s] running build
+[1.611s] running build_py
+[1.611s] creating /robot_ws/build/basic_pkg/build
+[1.612s] creating /robot_ws/build/basic_pkg/build/lib
+[1.612s] creating /robot_ws/build/basic_pkg/build/lib/basic_pkg
+[1.612s] copying basic_pkg/helloworld_publisher.py -> /robot_ws/build/basic_pkg/build/lib/basic_pkg
+[1.612s] copying basic_pkg/__init__.py -> /robot_ws/build/basic_pkg/build/lib/basic_pkg
+[1.612s] copying basic_pkg/helloworld_subscriber.py -> /robot_ws/build/basic_pkg/build/lib/basic_pkg
+[1.612s] running install
+[1.612s] running install_lib
+[1.612s] creating /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg
+[1.612s] copying /robot_ws/build/basic_pkg/build/lib/basic_pkg/helloworld_publisher.py -> /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg
+[1.612s] copying /robot_ws/build/basic_pkg/build/lib/basic_pkg/__init__.py -> /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg
+[1.612s] copying /robot_ws/build/basic_pkg/build/lib/basic_pkg/helloworld_subscriber.py -> /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg
+[1.613s] byte-compiling /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg/helloworld_publisher.py to helloworld_publisher.cpython-310.pyc
+[1.613s] byte-compiling /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg/__init__.py to __init__.cpython-310.pyc
+[1.613s] byte-compiling /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg/helloworld_subscriber.py to helloworld_subscriber.cpython-310.pyc
+[1.613s] running install_data
+[1.613s] creating /robot_ws/install/basic_pkg/share/ament_index
+[1.613s] creating /robot_ws/install/basic_pkg/share/ament_index/resource_index
+[1.613s] creating /robot_ws/install/basic_pkg/share/ament_index/resource_index/packages
+[1.613s] copying resource/basic_pkg -> /robot_ws/install/basic_pkg/share/ament_index/resource_index/packages
+[1.614s] copying package.xml -> /robot_ws/install/basic_pkg/share/basic_pkg
+[1.614s] running install_egg_info
+[1.614s] Copying ../../build/basic_pkg/basic_pkg.egg-info to /robot_ws/install/basic_pkg/lib/python3.10/site-packages/basic_pkg-0.0.0-py3.10.egg-info
+[1.614s] running install_scripts
+[1.644s] Installing helloworld_publisher script to /robot_ws/install/basic_pkg/lib/basic_pkg
+[1.644s] Installing helloworld_subscriber script to /robot_ws/install/basic_pkg/lib/basic_pkg
+[1.645s] writing list of installed files to '/robot_ws/build/basic_pkg/install.log'
+[1.671s] Invoked command in '/robot_ws/src/basic_pkg' returned '0': PYTHONPATH=/robot_ws/build/basic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/robot_ws/install/basic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_pkg build --build-base /robot_ws/build/basic_pkg/build install --record /robot_ws/build/basic_pkg/install.log --single-version-externally-managed install_data

@@ -1,9 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000644] (-) JobUnselected: {'identifier': 'basic_pkg'}
-[0.000716] (-) JobUnselected: {'identifier': 'basic_pkg_cpp'}
-[0.001108] (-) JobUnselected: {'identifier': 'calculator'}
-[0.001132] (-) JobUnselected: {'identifier': 'logger'}
-[0.001143] (-) JobUnselected: {'identifier': 'msg_srv_action_interface_example'}
-[0.001153] (-) JobUnselected: {'identifier': 'ros2env'}
-[0.001162] (-) JobUnselected: {'identifier': 'tf2_python'}
-[0.001172] (-) EventReactorShutdown: {}

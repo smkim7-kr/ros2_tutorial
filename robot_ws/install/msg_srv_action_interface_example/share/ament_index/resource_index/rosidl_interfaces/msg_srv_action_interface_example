@@ -1,1 +1,8 @@
-/robot_ws/build/msg_srv_action_interface_example/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/msg_srv_action_interface_example
+action/ArithmeticChecker.action
+action/ArithmeticChecker.idl
+msg/ArithmeticArgument.idl
+msg/ArithmeticArgument.msg
+srv/ArithmeticOperator.idl
+srv/ArithmeticOperator.srv
+srv/ArithmeticOperator_Request.msg
+srv/ArithmeticOperator_Response.msg

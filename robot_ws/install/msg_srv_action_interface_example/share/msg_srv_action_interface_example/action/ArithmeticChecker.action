@@ -1,1 +1,9 @@
-/robot_ws/src/msg_srv_action_interface_example/action/ArithmeticChecker.action
+# Goal
+float32 goal_sum
+---
+# Result
+string[] all_formula
+float32 total_sum
+---
+# Feedback
+string[] formula

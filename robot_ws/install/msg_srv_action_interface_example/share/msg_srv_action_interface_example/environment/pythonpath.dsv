@@ -1,1 +1,1 @@
-/robot_ws/build/msg_srv_action_interface_example/ament_cmake_environment_hooks/pythonpath.dsv
+prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages

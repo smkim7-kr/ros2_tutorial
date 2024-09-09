@@ -1,0 +1,6 @@
+Invoking command in '/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/msg_srv_action_interface_example -DCMAKE_INSTALL_PREFIX=/robot_ws/install/msg_srv_action_interface_example
+Invoked command in '/robot_ws/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /robot_ws/src/msg_srv_action_interface_example -DCMAKE_INSTALL_PREFIX=/robot_ws/install/msg_srv_action_interface_example
+Invoking command in '/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/msg_srv_action_interface_example -- -j8 -l8
+Invoked command in '/robot_ws/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /robot_ws/build/msg_srv_action_interface_example -- -j8 -l8
+Invoking command in '/robot_ws/build/msg_srv_action_interface_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/msg_srv_action_interface_example
+Invoked command in '/robot_ws/build/msg_srv_action_interface_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /robot_ws/build/msg_srv_action_interface_example

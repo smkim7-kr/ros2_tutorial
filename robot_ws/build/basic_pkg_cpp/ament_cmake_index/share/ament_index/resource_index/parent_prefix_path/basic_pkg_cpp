@@ -1,1 +1,1 @@
-/robot_ws/install/tf2_python:/robot_ws/install/tf2_py:/robot_ws/install/ros2env:/robot_ws/install/calculator:/robot_ws/install/msg_srv_action_interface_example:/robot_ws/install/logger:/robot_ws/install/geometry_tutorials:/robot_ws/install/basic_pkg_cpp:/robot_ws/install/basic_pkg:/opt/ros/humble
+/opt/ros/humble

@@ -1,1 +1,1 @@
-/robot_ws/build/msg_srv_action_interface_example/rosidl_generator_py/msg_srv_action_interface_example/srv/__init__.py
+from msg_srv_action_interface_example.srv._arithmetic_operator import ArithmeticOperator  # noqa: F401
