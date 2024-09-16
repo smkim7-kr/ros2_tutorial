@@ -12,8 +12,9 @@ docker run -it \
   --volume="/etc/localtime:/etc/localtime:ro" \
   --volume="/home/smkim/.bashrc:/root/.bashrc:rw" \
   --volume="/home/smkim/ros2_tutorials/robot_ws:/robot_ws" \
+  --volume="/home/smkim/ros2_tutorials/dev_ws:/dev_ws" \
   --privileged \
-  --name ros_humble \
+  --name ros_humble2 \
   osrf/ros:humble-desktop
 
 # Disable access to X11 display after running the container
