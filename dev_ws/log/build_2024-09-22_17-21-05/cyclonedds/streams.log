@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8
+[0.076s] [  0%] Built target _confgen
+[0.090s] [  3%] Built target idlpp
+[0.091s] [ 17%] Built target ddsrt-internal
+[0.146s] [ 77%] Built target ddsc
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target dds_security_ac[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target dds_security_crypto[0m
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target dds_security_auth[0m
+[0.166s] [ 78%] Built target symbol_export_test
+[0.179s] [ 81%] Built target dds_security_ac
+[0.179s] [ 89%] Built target idl
+[0.179s] [ 91%] Built target psmx_iox
+[0.180s] [ 94%] Built target dds_security_crypto
+[0.180s] [ 95%] Built target dds_security_auth
+[0.191s] [ 96%] Built target libidlc
+[0.193s] [ 97%] Built target idlc
+[0.206s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[0.207s] ../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
+[0.207s] gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
+[0.207s] gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
+[0.208s] gmake: *** [Makefile:156: all] Error 2
+[0.210s] Invoked command in '/dev_ws/build/cyclonedds' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8

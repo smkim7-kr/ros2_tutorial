@@ -1,0 +1,1308 @@
+[0.000000] (-) TimerEvent: {}
+[0.001184] (cyclonedds) JobQueued: {'identifier': 'cyclonedds', 'dependencies': OrderedDict()}
+[0.001614] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.003293] (rmw_cyclonedds_cpp) JobQueued: {'identifier': 'rmw_cyclonedds_cpp', 'dependencies': OrderedDict([('cyclonedds', '/dev_ws/install/cyclonedds')])}
+[0.003454] (cyclonedds) JobStarted: {'identifier': 'cyclonedds'}
+[0.005083] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.012026] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'cmake'}
+[0.017960] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '/dev_ws/src/eclipse-cyclonedds/cyclonedds', '-DBUILD_IDLC=AUTO', '-DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds'], 'cwd': '/dev_ws/build/cyclonedds', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/cyclonedds'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.030352] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.031817] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.033824] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/dev_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/dev_ws/build/my_bot', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.086295] (-) TimerEvent: {}
+[0.087527] (my_bot) CommandEnded: {'returncode': 0}
+[0.148317] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.160124] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/dev_ws/build/my_bot'], 'cwd': '/dev_ws/build/my_bot', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.170423] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.171402] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.172095] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/control.yaml\n'}
+[0.172460] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.172586] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.174343] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.175059] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[0.175741] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.176436] (my_bot) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/my_bot/share/my_bot/config/slam.rviz\n'}
+[0.186465] (-) TimerEvent: {}
+[0.186952] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.187504] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.188073] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.188327] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.188437] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.188671] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.188846] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.189143] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.189337] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.189572] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.189768] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.189895] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.190267] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.190694] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.190876] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.190981] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.191206] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.191596] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.191698] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.191846] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.191963] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.192028] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.192103] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.192160] (my_bot) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.205562] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.206392] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.206830] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.207382] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.216377] (my_bot) CommandEnded: {'returncode': 0}
+[0.286816] (-) TimerEvent: {}
+[0.288789] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.318568] (cyclonedds) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.387060] (-) TimerEvent: {}
+[0.487727] (-) TimerEvent: {}
+[0.544456] (cyclonedds) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.562806] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.587858] (-) TimerEvent: {}
+[0.668588] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.681368] (cyclonedds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.682235] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.683289] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.688024] (-) TimerEvent: {}
+[0.688862] (cyclonedds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.788161] (-) TimerEvent: {}
+[0.839488] (cyclonedds) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.855209] (cyclonedds) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.856129] (cyclonedds) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.857415] (cyclonedds) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.858652] (cyclonedds) StdoutLine: {'line': b"-- Setting build type to 'RelWithDebInfo' as none was specified.\n"}
+[0.879215] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h\n'}
+[0.888321] (-) TimerEvent: {}
+[0.989376] (-) TimerEvent: {}
+[1.018393] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h - found\n'}
+[1.089534] (-) TimerEvent: {}
+[1.111930] (cyclonedds) StdoutLine: {'line': b'-- Building with OpenSSL support\n'}
+[1.136345] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[1.189673] (-) TimerEvent: {}
+[1.234880] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[1.235305] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[1.289811] (-) TimerEvent: {}
+[1.345707] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[1.346169] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[1.389968] (-) TimerEvent: {}
+[1.458247] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[1.458539] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[1.490114] (-) TimerEvent: {}
+[1.564529] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[1.565006] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[1.590280] (-) TimerEvent: {}
+[1.686663] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[1.687037] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t\n'}
+[1.690410] (-) TimerEvent: {}
+[1.786701] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t - done\n'}
+[1.790582] (-) TimerEvent: {}
+[1.792290] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy\n'}
+[1.890699] (-) TimerEvent: {}
+[1.913366] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy - found\n'}
+[1.913809] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy\n'}
+[1.963202] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy - not found\n'}
+[1.963653] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat\n'}
+[1.990914] (-) TimerEvent: {}
+[2.014904] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat - not found\n'}
+[2.018156] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[2.091050] (-) TimerEvent: {}
+[2.166997] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[2.167937] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[2.191769] (-) TimerEvent: {}
+[2.280162] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[2.280504] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[2.291938] (-) TimerEvent: {}
+[2.392683] (-) TimerEvent: {}
+[2.428343] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[2.443700] (cyclonedds) StdoutLine: {'line': b'-- Building internal IDLC backend\n'}
+[2.448161] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname\n'}
+[2.492815] (-) TimerEvent: {}
+[2.546816] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname - found\n'}
+[2.547473] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop\n'}
+[2.592967] (-) TimerEvent: {}
+[2.684247] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop - found\n'}
+[2.684739] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton\n'}
+[2.693097] (-) TimerEvent: {}
+[2.793797] (-) TimerEvent: {}
+[2.807346] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton - found\n'}
+[2.807573] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo\n'}
+[2.893951] (-) TimerEvent: {}
+[2.912934] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo - found\n'}
+[2.913445] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r\n'}
+[2.994094] (-) TimerEvent: {}
+[3.035315] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r - found\n'}
+[3.035680] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6\n'}
+[3.094977] (-) TimerEvent: {}
+[3.157815] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6 - done\n'}
+[3.158474] (cyclonedds) StdoutLine: {'line': b'-- Building with IPv6 support\n'}
+[3.159279] (cyclonedds) StdoutLine: {'line': b'-- Looking for IP_ADD_SOURCE_MEMBERSHIP\n'}
+[3.195132] (-) TimerEvent: {}
+[3.266208] (cyclonedds) StdoutLine: {'line': b'-- Looking for IP_ADD_SOURCE_MEMBERSHIP - found\n'}
+[3.267200] (cyclonedds) StdoutLine: {'line': b'-- Looking for MCAST_JOIN_SOURCE_GROUP\n'}
+[3.295265] (-) TimerEvent: {}
+[3.374758] (cyclonedds) StdoutLine: {'line': b'-- Looking for MCAST_JOIN_SOURCE_GROUP - found\n'}
+[3.375173] (cyclonedds) StdoutLine: {'line': b'-- Building with source-specific multicast support\n'}
+[3.379468] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.395767] (-) TimerEvent: {}
+[3.496831] (-) TimerEvent: {}
+[3.508190] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.508715] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.596968] (-) TimerEvent: {}
+[3.600464] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.601669] (cyclonedds) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.602545] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c\n'}
+[3.697112] (-) TimerEvent: {}
+[3.720383] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c - found\n'}
+[3.756182] (cyclonedds) StdoutLine: {'line': b'-- Building Iceoryx PSMX plugin\n'}
+[3.797265] (-) TimerEvent: {}
+[3.897798] (-) TimerEvent: {}
+[3.998465] (-) TimerEvent: {}
+[4.099741] (-) TimerEvent: {}
+[4.200441] (-) TimerEvent: {}
+[4.300937] (-) TimerEvent: {}
+[4.401367] (-) TimerEvent: {}
+[4.501796] (-) TimerEvent: {}
+[4.602262] (-) TimerEvent: {}
+[4.702826] (-) TimerEvent: {}
+[4.747683] (cyclonedds) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.803001] (-) TimerEvent: {}
+[4.903407] (-) TimerEvent: {}
+[4.929721] (cyclonedds) StdoutLine: {'line': b'-- Generating done\n'}
+[4.934011] (cyclonedds) StdoutLine: {'line': b'-- Build files have been written to: /dev_ws/build/cyclonedds\n'}
+[4.946646] (cyclonedds) CommandEnded: {'returncode': 0}
+[4.947923] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'build'}
+[4.948279] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/dev_ws/build/cyclonedds', '--', '-j8', '-l8'], 'cwd': '/dev_ws/build/cyclonedds', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/cyclonedds'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[5.003583] (-) TimerEvent: {}
+[5.009054] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o\x1b[0m\n'}
+[5.103751] (-) TimerEvent: {}
+[5.204180] (-) TimerEvent: {}
+[5.304685] (-) TimerEvent: {}
+[5.405383] (-) TimerEvent: {}
+[5.505858] (-) TimerEvent: {}
+[5.606455] (-) TimerEvent: {}
+[5.678469] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o\x1b[0m\n'}
+[5.706643] (-) TimerEvent: {}
+[5.807081] (-) TimerEvent: {}
+[5.907636] (-) TimerEvent: {}
+[6.009739] (-) TimerEvent: {}
+[6.110173] (-) TimerEvent: {}
+[6.210806] (-) TimerEvent: {}
+[6.311858] (-) TimerEvent: {}
+[6.412492] (-) TimerEvent: {}
+[6.512955] (-) TimerEvent: {}
+[6.613415] (-) TimerEvent: {}
+[6.699626] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o\x1b[0m\n'}
+[6.713550] (-) TimerEvent: {}
+[6.814075] (-) TimerEvent: {}
+[6.914642] (-) TimerEvent: {}
+[7.015158] (-) TimerEvent: {}
+[7.115655] (-) TimerEvent: {}
+[7.216329] (-) TimerEvent: {}
+[7.316937] (-) TimerEvent: {}
+[7.417904] (-) TimerEvent: {}
+[7.518547] (-) TimerEvent: {}
+[7.619038] (-) TimerEvent: {}
+[7.719566] (-) TimerEvent: {}
+[7.813163] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o\x1b[0m\n'}
+[7.819686] (-) TimerEvent: {}
+[7.920598] (-) TimerEvent: {}
+[8.021278] (-) TimerEvent: {}
+[8.106532] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o\x1b[0m\n'}
+[8.121424] (-) TimerEvent: {}
+[8.221884] (-) TimerEvent: {}
+[8.322433] (-) TimerEvent: {}
+[8.384934] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o\x1b[0m\n'}
+[8.422572] (-) TimerEvent: {}
+[8.523427] (-) TimerEvent: {}
+[8.623904] (-) TimerEvent: {}
+[8.726298] (-) TimerEvent: {}
+[8.826879] (-) TimerEvent: {}
+[8.927295] (-) TimerEvent: {}
+[9.027912] (-) TimerEvent: {}
+[9.128536] (-) TimerEvent: {}
+[9.231116] (-) TimerEvent: {}
+[9.331867] (-) TimerEvent: {}
+[9.433384] (-) TimerEvent: {}
+[9.447689] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o\x1b[0m\n'}
+[9.533541] (-) TimerEvent: {}
+[9.634030] (-) TimerEvent: {}
+[9.734584] (-) TimerEvent: {}
+[9.835053] (-) TimerEvent: {}
+[9.935548] (-) TimerEvent: {}
+[10.036027] (-) TimerEvent: {}
+[10.041702] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32m\x1b[1mLinking C static library ../../../lib/libidlpp.a\x1b[0m\n'}
+[10.103856] (cyclonedds) StdoutLine: {'line': b'[  3%] Built target idlpp\n'}
+[10.127414] (cyclonedds) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o\x1b[0m\n'}
+[10.136268] (-) TimerEvent: {}
+[10.237223] (-) TimerEvent: {}
+[10.283121] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o\x1b[0m\n'}
+[10.337360] (-) TimerEvent: {}
+[10.438439] (-) TimerEvent: {}
+[10.460659] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o\x1b[0m\n'}
+[10.500988] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o\x1b[0m\n'}
+[10.538573] (-) TimerEvent: {}
+[10.617481] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o\x1b[0m\n'}
+[10.638758] (-) TimerEvent: {}
+[10.739234] (-) TimerEvent: {}
+[10.755923] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o\x1b[0m\n'}
+[10.806171] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o\x1b[0m\n'}
+[10.839489] (-) TimerEvent: {}
+[10.881278] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o\x1b[0m\n'}
+[10.939639] (-) TimerEvent: {}
+[11.040065] (-) TimerEvent: {}
+[11.079686] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o\x1b[0m\n'}
+[11.140201] (-) TimerEvent: {}
+[11.207221] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o\x1b[0m\n'}
+[11.240338] (-) TimerEvent: {}
+[11.340740] (-) TimerEvent: {}
+[11.441195] (-) TimerEvent: {}
+[11.541749] (-) TimerEvent: {}
+[11.626041] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o\x1b[0m\n'}
+[11.644076] (-) TimerEvent: {}
+[11.675163] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o\x1b[0m\n'}
+[11.722495] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o\x1b[0m\n'}
+[11.744266] (-) TimerEvent: {}
+[11.844765] (-) TimerEvent: {}
+[11.856392] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o\x1b[0m\n'}
+[11.944892] (-) TimerEvent: {}
+[12.034314] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o\x1b[0m\n'}
+[12.045091] (-) TimerEvent: {}
+[12.145468] (-) TimerEvent: {}
+[12.202599] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o\x1b[0m\n'}
+[12.245622] (-) TimerEvent: {}
+[12.346321] (-) TimerEvent: {}
+[12.446951] (-) TimerEvent: {}
+[12.548026] (-) TimerEvent: {}
+[12.606811] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o\x1b[0m\n'}
+[12.650299] (-) TimerEvent: {}
+[12.666882] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o\x1b[0m\n'}
+[12.735185] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o\x1b[0m\n'}
+[12.750443] (-) TimerEvent: {}
+[12.854412] (-) TimerEvent: {}
+[12.889669] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o\x1b[0m\n'}
+[12.954865] (-) TimerEvent: {}
+[12.971561] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[13.055025] (-) TimerEvent: {}
+[13.146836] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[13.158017] (-) TimerEvent: {}
+[13.221227] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[13.258106] (-) TimerEvent: {}
+[13.367289] (-) TimerEvent: {}
+[13.424800] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o\x1b[0m\n'}
+[13.467421] (-) TimerEvent: {}
+[13.492234] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[13.567551] (-) TimerEvent: {}
+[13.601592] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o\x1b[0m\n'}
+[13.663454] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[13.667673] (-) TimerEvent: {}
+[13.743171] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o\x1b[0m\n'}
+[13.767847] (-) TimerEvent: {}
+[13.833821] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o\x1b[0m\n'}
+[13.867971] (-) TimerEvent: {}
+[13.911806] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o\x1b[0m\n'}
+[13.968209] (-) TimerEvent: {}
+[14.020600] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o\x1b[0m\n'}
+[14.068374] (-) TimerEvent: {}
+[14.169001] (-) TimerEvent: {}
+[14.270085] (-) TimerEvent: {}
+[14.283113] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[14.370418] (-) TimerEvent: {}
+[14.387104] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o\x1b[0m\n'}
+[14.470782] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[14.471111] (-) TimerEvent: {}
+[14.571503] (-) TimerEvent: {}
+[14.600845] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o\x1b[0m\n'}
+[14.654690] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o\x1b[0m\n'}
+[14.671660] (-) TimerEvent: {}
+[14.709263] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bits.c.o\x1b[0m\n'}
+[14.756010] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib.c.o\x1b[0m\n'}
+[14.771922] (-) TimerEvent: {}
+[14.822383] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o\x1b[0m\n'}
+[14.872077] (-) TimerEvent: {}
+[14.972636] (-) TimerEvent: {}
+[15.073123] (-) TimerEvent: {}
+[15.173936] (-) TimerEvent: {}
+[15.274477] (-) TimerEvent: {}
+[15.354199] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C static library ../../lib/libddsrt-internal.a\x1b[0m\n'}
+[15.374607] (-) TimerEvent: {}
+[15.415292] (cyclonedds) StdoutLine: {'line': b'[ 17%] Built target ddsrt-internal\n'}
+[15.464105] (cyclonedds) StdoutLine: {'line': b'[ 17%] Built target _confgen\n'}
+[15.474768] (-) TimerEvent: {}
+[15.505184] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/cdr/src/dds_cdrstream.c.o\x1b[0m\n'}
+[15.574902] (-) TimerEvent: {}
+[15.677808] (-) TimerEvent: {}
+[15.779284] (-) TimerEvent: {}
+[15.880365] (-) TimerEvent: {}
+[15.980976] (-) TimerEvent: {}
+[16.081409] (-) TimerEvent: {}
+[16.181875] (-) TimerEvent: {}
+[16.283531] (-) TimerEvent: {}
+[16.383921] (-) TimerEvent: {}
+[16.484584] (-) TimerEvent: {}
+[16.585071] (-) TimerEvent: {}
+[16.685855] (-) TimerEvent: {}
+[16.786555] (-) TimerEvent: {}
+[16.887753] (-) TimerEvent: {}
+[16.988209] (-) TimerEvent: {}
+[17.089015] (-) TimerEvent: {}
+[17.189764] (-) TimerEvent: {}
+[17.290217] (-) TimerEvent: {}
+[17.390880] (-) TimerEvent: {}
+[17.491341] (-) TimerEvent: {}
+[17.591844] (-) TimerEvent: {}
+[17.692227] (-) TimerEvent: {}
+[17.792624] (-) TimerEvent: {}
+[17.893086] (-) TimerEvent: {}
+[17.993591] (-) TimerEvent: {}
+[18.094017] (-) TimerEvent: {}
+[18.194445] (-) TimerEvent: {}
+[18.294990] (-) TimerEvent: {}
+[18.395477] (-) TimerEvent: {}
+[18.496154] (-) TimerEvent: {}
+[18.596750] (-) TimerEvent: {}
+[18.697252] (-) TimerEvent: {}
+[18.797857] (-) TimerEvent: {}
+[18.898309] (-) TimerEvent: {}
+[18.998768] (-) TimerEvent: {}
+[19.077579] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o\x1b[0m\n'}
+[19.098958] (-) TimerEvent: {}
+[19.199523] (-) TimerEvent: {}
+[19.255357] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o\x1b[0m\n'}
+[19.299687] (-) TimerEvent: {}
+[19.400118] (-) TimerEvent: {}
+[19.462353] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o\x1b[0m\n'}
+[19.500245] (-) TimerEvent: {}
+[19.600688] (-) TimerEvent: {}
+[19.647603] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_nwpart.c.o\x1b[0m\n'}
+[19.700816] (-) TimerEvent: {}
+[19.801470] (-) TimerEvent: {}
+[19.902030] (-) TimerEvent: {}
+[19.946618] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o\x1b[0m\n'}
+[20.002177] (-) TimerEvent: {}
+[20.102613] (-) TimerEvent: {}
+[20.203076] (-) TimerEvent: {}
+[20.303566] (-) TimerEvent: {}
+[20.329441] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o\x1b[0m\n'}
+[20.403717] (-) TimerEvent: {}
+[20.504195] (-) TimerEvent: {}
+[20.604926] (-) TimerEvent: {}
+[20.705599] (-) TimerEvent: {}
+[20.806349] (-) TimerEvent: {}
+[20.906971] (-) TimerEvent: {}
+[21.007556] (-) TimerEvent: {}
+[21.108449] (-) TimerEvent: {}
+[21.208877] (-) TimerEvent: {}
+[21.309346] (-) TimerEvent: {}
+[21.409790] (-) TimerEvent: {}
+[21.510223] (-) TimerEvent: {}
+[21.610651] (-) TimerEvent: {}
+[21.712055] (-) TimerEvent: {}
+[21.813101] (-) TimerEvent: {}
+[21.913606] (-) TimerEvent: {}
+[22.014275] (-) TimerEvent: {}
+[22.061304] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o\x1b[0m\n'}
+[22.114929] (-) TimerEvent: {}
+[22.207673] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o\x1b[0m\n'}
+[22.215077] (-) TimerEvent: {}
+[22.315565] (-) TimerEvent: {}
+[22.416218] (-) TimerEvent: {}
+[22.517024] (-) TimerEvent: {}
+[22.617685] (-) TimerEvent: {}
+[22.718502] (-) TimerEvent: {}
+[22.727018] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o\x1b[0m\n'}
+[22.818747] (-) TimerEvent: {}
+[22.880266] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_cdr.c.o\x1b[0m\n'}
+[22.918916] (-) TimerEvent: {}
+[23.019453] (-) TimerEvent: {}
+[23.072959] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o\x1b[0m\n'}
+[23.119594] (-) TimerEvent: {}
+[23.220128] (-) TimerEvent: {}
+[23.289807] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o\x1b[0m\n'}
+[23.320274] (-) TimerEvent: {}
+[23.420779] (-) TimerEvent: {}
+[23.521539] (-) TimerEvent: {}
+[23.524874] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o\x1b[0m\n'}
+[23.621703] (-) TimerEvent: {}
+[23.722583] (-) TimerEvent: {}
+[23.754853] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_cdr.c.o\x1b[0m\n'}
+[23.822720] (-) TimerEvent: {}
+[23.923316] (-) TimerEvent: {}
+[23.924352] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o\x1b[0m\n'}
+[24.023428] (-) TimerEvent: {}
+[24.056736] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o\x1b[0m\n'}
+[24.123558] (-) TimerEvent: {}
+[24.186686] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o\x1b[0m\n'}
+[24.224035] (-) TimerEvent: {}
+[24.326121] (-) TimerEvent: {}
+[24.333319] (cyclonedds) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o\x1b[0m\n'}
+[24.415437] (cyclonedds) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o\x1b[0m\n'}
+[24.426253] (-) TimerEvent: {}
+[24.527018] (-) TimerEvent: {}
+[24.600134] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o\x1b[0m\n'}
+[24.627221] (-) TimerEvent: {}
+[24.669869] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o\x1b[0m\n'}
+[24.727455] (-) TimerEvent: {}
+[24.827993] (-) TimerEvent: {}
+[24.879176] (cyclonedds) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o\x1b[0m\n'}
+[24.928125] (-) TimerEvent: {}
+[24.930849] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o\x1b[0m\n'}
+[25.028260] (-) TimerEvent: {}
+[25.116446] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o\x1b[0m\n'}
+[25.128391] (-) TimerEvent: {}
+[25.229265] (-) TimerEvent: {}
+[25.329905] (-) TimerEvent: {}
+[25.428121] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o\x1b[0m\n'}
+[25.430018] (-) TimerEvent: {}
+[25.530458] (-) TimerEvent: {}
+[25.616183] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o\x1b[0m\n'}
+[25.630594] (-) TimerEvent: {}
+[25.732348] (-) TimerEvent: {}
+[25.832885] (-) TimerEvent: {}
+[25.846379] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o\x1b[0m\n'}
+[25.933023] (-) TimerEvent: {}
+[26.033414] (-) TimerEvent: {}
+[26.133873] (-) TimerEvent: {}
+[26.234425] (-) TimerEvent: {}
+[26.334976] (-) TimerEvent: {}
+[26.436228] (-) TimerEvent: {}
+[26.536985] (-) TimerEvent: {}
+[26.637515] (-) TimerEvent: {}
+[26.738111] (-) TimerEvent: {}
+[26.838636] (-) TimerEvent: {}
+[26.939463] (-) TimerEvent: {}
+[27.040005] (-) TimerEvent: {}
+[27.143737] (-) TimerEvent: {}
+[27.244611] (-) TimerEvent: {}
+[27.346126] (-) TimerEvent: {}
+[27.448455] (-) TimerEvent: {}
+[27.548873] (-) TimerEvent: {}
+[27.649587] (-) TimerEvent: {}
+[27.750289] (-) TimerEvent: {}
+[27.764065] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o\x1b[0m\n'}
+[27.850449] (-) TimerEvent: {}
+[27.951139] (-) TimerEvent: {}
+[28.057267] (-) TimerEvent: {}
+[28.160942] (-) TimerEvent: {}
+[28.261377] (-) TimerEvent: {}
+[28.362804] (-) TimerEvent: {}
+[28.463355] (-) TimerEvent: {}
+[28.563808] (-) TimerEvent: {}
+[28.664420] (-) TimerEvent: {}
+[28.765180] (-) TimerEvent: {}
+[28.867620] (-) TimerEvent: {}
+[28.968157] (-) TimerEvent: {}
+[29.068692] (-) TimerEvent: {}
+[29.154518] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o\x1b[0m\n'}
+[29.168811] (-) TimerEvent: {}
+[29.223610] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_nwinterfaces.c.o\x1b[0m\n'}
+[29.268956] (-) TimerEvent: {}
+[29.369390] (-) TimerEvent: {}
+[29.469932] (-) TimerEvent: {}
+[29.570610] (-) TimerEvent: {}
+[29.634892] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o\x1b[0m\n'}
+[29.670793] (-) TimerEvent: {}
+[29.771199] (-) TimerEvent: {}
+[29.871898] (-) TimerEvent: {}
+[29.972438] (-) TimerEvent: {}
+[29.977548] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o\x1b[0m\n'}
+[30.072570] (-) TimerEvent: {}
+[30.131509] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o\x1b[0m\n'}
+[30.172737] (-) TimerEvent: {}
+[30.273246] (-) TimerEvent: {}
+[30.373630] (-) TimerEvent: {}
+[30.474177] (-) TimerEvent: {}
+[30.574705] (-) TimerEvent: {}
+[30.645715] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o\x1b[0m\n'}
+[30.674882] (-) TimerEvent: {}
+[30.775526] (-) TimerEvent: {}
+[30.842513] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint_match.c.o\x1b[0m\n'}
+[30.875682] (-) TimerEvent: {}
+[30.977315] (-) TimerEvent: {}
+[31.079391] (-) TimerEvent: {}
+[31.179819] (-) TimerEvent: {}
+[31.280395] (-) TimerEvent: {}
+[31.380942] (-) TimerEvent: {}
+[31.481358] (-) TimerEvent: {}
+[31.581896] (-) TimerEvent: {}
+[31.681741] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o\x1b[0m\n'}
+[31.682058] (-) TimerEvent: {}
+[31.782436] (-) TimerEvent: {}
+[31.882922] (-) TimerEvent: {}
+[31.983575] (-) TimerEvent: {}
+[32.087066] (-) TimerEvent: {}
+[32.188588] (-) TimerEvent: {}
+[32.206761] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o\x1b[0m\n'}
+[32.288764] (-) TimerEvent: {}
+[32.389292] (-) TimerEvent: {}
+[32.490591] (-) TimerEvent: {}
+[32.571318] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o\x1b[0m\n'}
+[32.590724] (-) TimerEvent: {}
+[32.691354] (-) TimerEvent: {}
+[32.791850] (-) TimerEvent: {}
+[32.892295] (-) TimerEvent: {}
+[32.900159] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o\x1b[0m\n'}
+[32.992437] (-) TimerEvent: {}
+[33.093784] (-) TimerEvent: {}
+[33.194259] (-) TimerEvent: {}
+[33.294965] (-) TimerEvent: {}
+[33.395594] (-) TimerEvent: {}
+[33.496208] (-) TimerEvent: {}
+[33.596787] (-) TimerEvent: {}
+[33.697276] (-) TimerEvent: {}
+[33.710805] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o\x1b[0m\n'}
+[33.797402] (-) TimerEvent: {}
+[33.897874] (-) TimerEvent: {}
+[34.000199] (-) TimerEvent: {}
+[34.100805] (-) TimerEvent: {}
+[34.124113] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_gc.c.o\x1b[0m\n'}
+[34.200989] (-) TimerEvent: {}
+[34.301788] (-) TimerEvent: {}
+[34.402265] (-) TimerEvent: {}
+[34.435519] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_addrset.c.o\x1b[0m\n'}
+[34.502458] (-) TimerEvent: {}
+[34.602953] (-) TimerEvent: {}
+[34.703629] (-) TimerEvent: {}
+[34.757035] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_bitset.c.o\x1b[0m\n'}
+[34.803758] (-) TimerEvent: {}
+[34.811745] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_guid.c.o\x1b[0m\n'}
+[34.898892] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_bswap.c.o\x1b[0m\n'}
+[34.904647] (-) TimerEvent: {}
+[34.983910] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_discovery.c.o\x1b[0m\n'}
+[35.004803] (-) TimerEvent: {}
+[35.105304] (-) TimerEvent: {}
+[35.205761] (-) TimerEvent: {}
+[35.306300] (-) TimerEvent: {}
+[35.317519] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_discovery_addrset.c.o\x1b[0m\n'}
+[35.406467] (-) TimerEvent: {}
+[35.506943] (-) TimerEvent: {}
+[35.515534] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_discovery_spdp.c.o\x1b[0m\n'}
+[35.607100] (-) TimerEvent: {}
+[35.707642] (-) TimerEvent: {}
+[35.808071] (-) TimerEvent: {}
+[35.908553] (-) TimerEvent: {}
+[36.007208] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_discovery_endpoint.c.o\x1b[0m\n'}
+[36.008674] (-) TimerEvent: {}
+[36.109084] (-) TimerEvent: {}
+[36.209551] (-) TimerEvent: {}
+[36.311000] (-) TimerEvent: {}
+[36.379743] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_debmon.c.o\x1b[0m\n'}
+[36.412151] (-) TimerEvent: {}
+[36.513788] (-) TimerEvent: {}
+[36.614515] (-) TimerEvent: {}
+[36.715080] (-) TimerEvent: {}
+[36.815470] (-) TimerEvent: {}
+[36.859399] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_init.c.o\x1b[0m\n'}
+[36.915667] (-) TimerEvent: {}
+[37.016320] (-) TimerEvent: {}
+[37.117682] (-) TimerEvent: {}
+[37.218816] (-) TimerEvent: {}
+[37.319376] (-) TimerEvent: {}
+[37.420011] (-) TimerEvent: {}
+[37.520581] (-) TimerEvent: {}
+[37.621694] (-) TimerEvent: {}
+[37.722152] (-) TimerEvent: {}
+[37.822610] (-) TimerEvent: {}
+[37.921904] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lat_estim.c.o\x1b[0m\n'}
+[37.922717] (-) TimerEvent: {}
+[38.010214] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lease.c.o\x1b[0m\n'}
+[38.022886] (-) TimerEvent: {}
+[38.123458] (-) TimerEvent: {}
+[38.223913] (-) TimerEvent: {}
+[38.228783] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_misc.c.o\x1b[0m\n'}
+[38.308887] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pcap.c.o\x1b[0m\n'}
+[38.324055] (-) TimerEvent: {}
+[38.424517] (-) TimerEvent: {}
+[38.445425] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_qosmatch.c.o\x1b[0m\n'}
+[38.524685] (-) TimerEvent: {}
+[38.625358] (-) TimerEvent: {}
+[38.647317] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_radmin.c.o\x1b[0m\n'}
+[38.725520] (-) TimerEvent: {}
+[38.826018] (-) TimerEvent: {}
+[38.926505] (-) TimerEvent: {}
+[39.026992] (-) TimerEvent: {}
+[39.127486] (-) TimerEvent: {}
+[39.227954] (-) TimerEvent: {}
+[39.328470] (-) TimerEvent: {}
+[39.428919] (-) TimerEvent: {}
+[39.529442] (-) TimerEvent: {}
+[39.549536] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_receive.c.o\x1b[0m\n'}
+[39.629599] (-) TimerEvent: {}
+[39.730064] (-) TimerEvent: {}
+[39.830516] (-) TimerEvent: {}
+[39.931062] (-) TimerEvent: {}
+[40.031601] (-) TimerEvent: {}
+[40.132280] (-) TimerEvent: {}
+[40.233024] (-) TimerEvent: {}
+[40.333601] (-) TimerEvent: {}
+[40.434089] (-) TimerEvent: {}
+[40.536011] (-) TimerEvent: {}
+[40.636464] (-) TimerEvent: {}
+[40.736922] (-) TimerEvent: {}
+[40.837364] (-) TimerEvent: {}
+[40.937963] (-) TimerEvent: {}
+[41.038428] (-) TimerEvent: {}
+[41.139418] (-) TimerEvent: {}
+[41.239892] (-) TimerEvent: {}
+[41.340387] (-) TimerEvent: {}
+[41.440867] (-) TimerEvent: {}
+[41.456337] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sockwaitset.c.o\x1b[0m\n'}
+[41.541002] (-) TimerEvent: {}
+[41.641455] (-) TimerEvent: {}
+[41.644188] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sysdeps.c.o\x1b[0m\n'}
+[41.741827] (cyclonedds) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_thread.c.o\x1b[0m\n'}
+[41.742110] (-) TimerEvent: {}
+[41.842463] (-) TimerEvent: {}
+[41.943678] (-) TimerEvent: {}
+[41.988182] (cyclonedds) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_transmit.c.o\x1b[0m\n'}
+[42.043863] (-) TimerEvent: {}
+[42.144528] (-) TimerEvent: {}
+[42.245078] (-) TimerEvent: {}
+[42.348277] (-) TimerEvent: {}
+[42.448756] (-) TimerEvent: {}
+[42.536583] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_inverse_uint32_set.c.o\x1b[0m\n'}
+[42.548915] (-) TimerEvent: {}
+[42.635502] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_whc.c.o\x1b[0m\n'}
+[42.649044] (-) TimerEvent: {}
+[42.741915] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xevent.c.o\x1b[0m\n'}
+[42.749515] (-) TimerEvent: {}
+[42.850311] (-) TimerEvent: {}
+[42.951432] (-) TimerEvent: {}
+[43.051972] (-) TimerEvent: {}
+[43.053896] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xmsg.c.o\x1b[0m\n'}
+[43.152100] (-) TimerEvent: {}
+[43.252563] (-) TimerEvent: {}
+[43.353081] (-) TimerEvent: {}
+[43.453734] (-) TimerEvent: {}
+[43.554933] (-) TimerEvent: {}
+[43.654303] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_freelist.c.o\x1b[0m\n'}
+[43.655011] (-) TimerEvent: {}
+[43.755318] (-) TimerEvent: {}
+[43.769261] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_hbcontrol.c.o\x1b[0m\n'}
+[43.855464] (-) TimerEvent: {}
+[43.958267] (-) TimerEvent: {}
+[44.058804] (-) TimerEvent: {}
+[44.159590] (-) TimerEvent: {}
+[44.172293] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o\x1b[0m\n'}
+[44.261990] (-) TimerEvent: {}
+[44.293275] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_discovery_topic.c.o\x1b[0m\n'}
+[44.362211] (-) TimerEvent: {}
+[44.462764] (-) TimerEvent: {}
+[44.506921] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o\x1b[0m\n'}
+[44.567286] (-) TimerEvent: {}
+[44.596475] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o\x1b[0m\n'}
+[44.667441] (-) TimerEvent: {}
+[44.671978] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o\x1b[0m\n'}
+[44.767594] (-) TimerEvent: {}
+[44.868825] (-) TimerEvent: {}
+[44.970130] (-) TimerEvent: {}
+[45.070721] (-) TimerEvent: {}
+[45.171694] (-) TimerEvent: {}
+[45.272966] (-) TimerEvent: {}
+[45.376785] (-) TimerEvent: {}
+[45.477247] (-) TimerEvent: {}
+[45.569164] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o\x1b[0m\n'}
+[45.577721] (-) TimerEvent: {}
+[45.678343] (-) TimerEvent: {}
+[45.778826] (-) TimerEvent: {}
+[45.879253] (-) TimerEvent: {}
+[45.979719] (-) TimerEvent: {}
+[46.080218] (-) TimerEvent: {}
+[46.180876] (-) TimerEvent: {}
+[46.281368] (-) TimerEvent: {}
+[46.381921] (-) TimerEvent: {}
+[46.482350] (-) TimerEvent: {}
+[46.582832] (-) TimerEvent: {}
+[46.683394] (-) TimerEvent: {}
+[46.783807] (-) TimerEvent: {}
+[46.884230] (-) TimerEvent: {}
+[46.984680] (-) TimerEvent: {}
+[47.085369] (-) TimerEvent: {}
+[47.185800] (-) TimerEvent: {}
+[47.235781] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o\x1b[0m\n'}
+[47.285931] (-) TimerEvent: {}
+[47.386363] (-) TimerEvent: {}
+[47.486937] (-) TimerEvent: {}
+[47.587434] (-) TimerEvent: {}
+[47.688852] (-) TimerEvent: {}
+[47.791633] (-) TimerEvent: {}
+[47.892274] (-) TimerEvent: {}
+[47.992862] (-) TimerEvent: {}
+[48.093637] (-) TimerEvent: {}
+[48.095022] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_dynamic_type.c.o\x1b[0m\n'}
+[48.193800] (-) TimerEvent: {}
+[48.294292] (-) TimerEvent: {}
+[48.394861] (-) TimerEvent: {}
+[48.495272] (-) TimerEvent: {}
+[48.558276] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o\x1b[0m\n'}
+[48.595476] (-) TimerEvent: {}
+[48.640776] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o\x1b[0m\n'}
+[48.695620] (-) TimerEvent: {}
+[48.796623] (-) TimerEvent: {}
+[48.897184] (-) TimerEvent: {}
+[48.977070] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o\x1b[0m\n'}
+[48.997277] (-) TimerEvent: {}
+[49.097894] (-) TimerEvent: {}
+[49.155636] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o\x1b[0m\n'}
+[49.198130] (-) TimerEvent: {}
+[49.298711] (-) TimerEvent: {}
+[49.399272] (-) TimerEvent: {}
+[49.428056] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o\x1b[0m\n'}
+[49.499446] (-) TimerEvent: {}
+[49.531280] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o\x1b[0m\n'}
+[49.599611] (-) TimerEvent: {}
+[49.658196] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o\x1b[0m\n'}
+[49.699748] (-) TimerEvent: {}
+[49.800414] (-) TimerEvent: {}
+[49.901312] (-) TimerEvent: {}
+[49.940062] (cyclonedds) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o\x1b[0m\n'}
+[50.001483] (-) TimerEvent: {}
+[50.048304] (cyclonedds) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o\x1b[0m\n'}
+[50.101600] (-) TimerEvent: {}
+[50.202065] (-) TimerEvent: {}
+[50.247079] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o\x1b[0m\n'}
+[50.302218] (-) TimerEvent: {}
+[50.402717] (-) TimerEvent: {}
+[50.503273] (-) TimerEvent: {}
+[50.603970] (-) TimerEvent: {}
+[50.704775] (-) TimerEvent: {}
+[50.769789] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o\x1b[0m\n'}
+[50.804906] (-) TimerEvent: {}
+[50.905377] (-) TimerEvent: {}
+[51.005961] (-) TimerEvent: {}
+[51.106382] (-) TimerEvent: {}
+[51.144717] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o\x1b[0m\n'}
+[51.206567] (-) TimerEvent: {}
+[51.280972] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o\x1b[0m\n'}
+[51.306726] (-) TimerEvent: {}
+[51.407237] (-) TimerEvent: {}
+[51.455521] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o\x1b[0m\n'}
+[51.507378] (-) TimerEvent: {}
+[51.608036] (-) TimerEvent: {}
+[51.623500] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o\x1b[0m\n'}
+[51.708222] (-) TimerEvent: {}
+[51.808972] (-) TimerEvent: {}
+[51.909407] (-) TimerEvent: {}
+[52.010542] (-) TimerEvent: {}
+[52.115209] (-) TimerEvent: {}
+[52.215862] (-) TimerEvent: {}
+[52.322569] (-) TimerEvent: {}
+[52.423062] (-) TimerEvent: {}
+[52.524523] (-) TimerEvent: {}
+[52.625027] (-) TimerEvent: {}
+[52.725458] (-) TimerEvent: {}
+[52.825866] (-) TimerEvent: {}
+[52.927056] (-) TimerEvent: {}
+[53.027680] (-) TimerEvent: {}
+[53.035467] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o\x1b[0m\n'}
+[53.127903] (-) TimerEvent: {}
+[53.228377] (-) TimerEvent: {}
+[53.328868] (-) TimerEvent: {}
+[53.335625] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o\x1b[0m\n'}
+[53.429002] (-) TimerEvent: {}
+[53.529446] (-) TimerEvent: {}
+[53.629924] (-) TimerEvent: {}
+[53.631341] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o\x1b[0m\n'}
+[53.730063] (-) TimerEvent: {}
+[53.830607] (-) TimerEvent: {}
+[53.931103] (-) TimerEvent: {}
+[54.031636] (-) TimerEvent: {}
+[54.132703] (-) TimerEvent: {}
+[54.233260] (-) TimerEvent: {}
+[54.314234] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o\x1b[0m\n'}
+[54.333394] (-) TimerEvent: {}
+[54.434013] (-) TimerEvent: {}
+[54.534464] (-) TimerEvent: {}
+[54.559477] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o\x1b[0m\n'}
+[54.634863] (-) TimerEvent: {}
+[54.735490] (-) TimerEvent: {}
+[54.835972] (-) TimerEvent: {}
+[54.936432] (-) TimerEvent: {}
+[55.037503] (-) TimerEvent: {}
+[55.138346] (-) TimerEvent: {}
+[55.239360] (-) TimerEvent: {}
+[55.339809] (-) TimerEvent: {}
+[55.385479] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o\x1b[0m\n'}
+[55.439977] (-) TimerEvent: {}
+[55.542555] (-) TimerEvent: {}
+[55.603589] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o\x1b[0m\n'}
+[55.642686] (-) TimerEvent: {}
+[55.743122] (-) TimerEvent: {}
+[55.759392] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o\x1b[0m\n'}
+[55.843257] (-) TimerEvent: {}
+[55.943908] (-) TimerEvent: {}
+[56.044387] (-) TimerEvent: {}
+[56.144954] (-) TimerEvent: {}
+[56.245555] (-) TimerEvent: {}
+[56.258388] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o\x1b[0m\n'}
+[56.345712] (-) TimerEvent: {}
+[56.446126] (-) TimerEvent: {}
+[56.546549] (-) TimerEvent: {}
+[56.611314] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o\x1b[0m\n'}
+[56.656352] (-) TimerEvent: {}
+[56.756831] (-) TimerEvent: {}
+[56.857275] (-) TimerEvent: {}
+[56.958751] (-) TimerEvent: {}
+[57.029752] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o\x1b[0m\n'}
+[57.059025] (-) TimerEvent: {}
+[57.159751] (-) TimerEvent: {}
+[57.260736] (-) TimerEvent: {}
+[57.291321] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o\x1b[0m\n'}
+[57.360881] (-) TimerEvent: {}
+[57.441540] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o\x1b[0m\n'}
+[57.461100] (-) TimerEvent: {}
+[57.561629] (-) TimerEvent: {}
+[57.617062] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o\x1b[0m\n'}
+[57.661788] (-) TimerEvent: {}
+[57.762496] (-) TimerEvent: {}
+[57.813784] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o\x1b[0m\n'}
+[57.862632] (-) TimerEvent: {}
+[57.963020] (-) TimerEvent: {}
+[58.012983] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o\x1b[0m\n'}
+[58.063156] (-) TimerEvent: {}
+[58.163623] (-) TimerEvent: {}
+[58.264150] (-) TimerEvent: {}
+[58.364817] (-) TimerEvent: {}
+[58.382145] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o\x1b[0m\n'}
+[58.464980] (-) TimerEvent: {}
+[58.565476] (-) TimerEvent: {}
+[58.665885] (-) TimerEvent: {}
+[58.767961] (-) TimerEvent: {}
+[58.868342] (-) TimerEvent: {}
+[58.931806] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o\x1b[0m\n'}
+[58.968481] (-) TimerEvent: {}
+[59.068917] (-) TimerEvent: {}
+[59.129201] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o\x1b[0m\n'}
+[59.169093] (-) TimerEvent: {}
+[59.269578] (-) TimerEvent: {}
+[59.370043] (-) TimerEvent: {}
+[59.381442] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o\x1b[0m\n'}
+[59.470189] (-) TimerEvent: {}
+[59.556752] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_default.c.o\x1b[0m\n'}
+[59.570328] (-) TimerEvent: {}
+[59.670744] (-) TimerEvent: {}
+[59.773055] (-) TimerEvent: {}
+[59.874321] (-) TimerEvent: {}
+[59.976070] (-) TimerEvent: {}
+[60.076556] (-) TimerEvent: {}
+[60.129992] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_default.c.o\x1b[0m\n'}
+[60.176730] (-) TimerEvent: {}
+[60.277180] (-) TimerEvent: {}
+[60.377656] (-) TimerEvent: {}
+[60.418325] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loaned_sample.c.o\x1b[0m\n'}
+[60.478025] (-) TimerEvent: {}
+[60.578567] (-) TimerEvent: {}
+[60.611635] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_heap_loan.c.o\x1b[0m\n'}
+[60.678710] (-) TimerEvent: {}
+[60.782182] (-) TimerEvent: {}
+[60.786897] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_psmx.c.o\x1b[0m\n'}
+[60.882336] (-) TimerEvent: {}
+[60.987300] (-) TimerEvent: {}
+[61.090645] (-) TimerEvent: {}
+[61.191289] (-) TimerEvent: {}
+[61.224499] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_dynamic_type.c.o\x1b[0m\n'}
+[61.291425] (-) TimerEvent: {}
+[61.391879] (-) TimerEvent: {}
+[61.492385] (-) TimerEvent: {}
+[61.592810] (-) TimerEvent: {}
+[61.606070] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sysdef_parser.c.o\x1b[0m\n'}
+[61.693107] (-) TimerEvent: {}
+[61.793554] (-) TimerEvent: {}
+[61.894034] (-) TimerEvent: {}
+[61.995008] (-) TimerEvent: {}
+[62.095503] (-) TimerEvent: {}
+[62.196551] (-) TimerEvent: {}
+[62.298471] (-) TimerEvent: {}
+[62.398996] (-) TimerEvent: {}
+[62.499699] (-) TimerEvent: {}
+[62.600931] (-) TimerEvent: {}
+[62.701848] (-) TimerEvent: {}
+[62.802465] (-) TimerEvent: {}
+[62.903256] (-) TimerEvent: {}
+[63.003948] (-) TimerEvent: {}
+[63.104385] (-) TimerEvent: {}
+[63.204851] (-) TimerEvent: {}
+[63.305329] (-) TimerEvent: {}
+[63.405818] (-) TimerEvent: {}
+[63.506364] (-) TimerEvent: {}
+[63.606899] (-) TimerEvent: {}
+[63.707578] (-) TimerEvent: {}
+[63.808254] (-) TimerEvent: {}
+[63.909387] (-) TimerEvent: {}
+[64.010002] (-) TimerEvent: {}
+[64.110645] (-) TimerEvent: {}
+[64.211085] (-) TimerEvent: {}
+[64.311943] (-) TimerEvent: {}
+[64.412870] (-) TimerEvent: {}
+[64.513343] (-) TimerEvent: {}
+[64.541335] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sysdef_validation.c.o\x1b[0m\n'}
+[64.613499] (-) TimerEvent: {}
+[64.714954] (-) TimerEvent: {}
+[64.757022] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos_provider.c.o\x1b[0m\n'}
+[64.816073] (-) TimerEvent: {}
+[64.917534] (-) TimerEvent: {}
+[65.005453] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o\x1b[0m\n'}
+[65.017707] (-) TimerEvent: {}
+[65.118369] (-) TimerEvent: {}
+[65.218920] (-) TimerEvent: {}
+[65.319586] (-) TimerEvent: {}
+[65.405069] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o\x1b[0m\n'}
+[65.419780] (-) TimerEvent: {}
+[65.520250] (-) TimerEvent: {}
+[65.620714] (-) TimerEvent: {}
+[65.721152] (-) TimerEvent: {}
+[65.821903] (-) TimerEvent: {}
+[65.922588] (-) TimerEvent: {}
+[65.984750] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o\x1b[0m\n'}
+[66.022805] (-) TimerEvent: {}
+[66.123301] (-) TimerEvent: {}
+[66.170779] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_shared_secret.c.o\x1b[0m\n'}
+[66.223412] (-) TimerEvent: {}
+[66.255871] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o\x1b[0m\n'}
+[66.323572] (-) TimerEvent: {}
+[66.424298] (-) TimerEvent: {}
+[66.525016] (-) TimerEvent: {}
+[66.572214] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o\x1b[0m\n'}
+[66.626576] (-) TimerEvent: {}
+[66.727430] (-) TimerEvent: {}
+[66.759938] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o\x1b[0m\n'}
+[66.827581] (-) TimerEvent: {}
+[66.928053] (-) TimerEvent: {}
+[66.944317] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o\x1b[0m\n'}
+[67.028764] (-) TimerEvent: {}
+[67.129939] (-) TimerEvent: {}
+[67.233672] (-) TimerEvent: {}
+[67.335058] (-) TimerEvent: {}
+[67.435565] (-) TimerEvent: {}
+[67.536111] (-) TimerEvent: {}
+[67.636772] (-) TimerEvent: {}
+[67.741181] (-) TimerEvent: {}
+[67.800856] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib.c.o\x1b[0m\n'}
+[67.841316] (-) TimerEvent: {}
+[67.894477] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bits.c.o\x1b[0m\n'}
+[67.941496] (-) TimerEvent: {}
+[67.954754] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o\x1b[0m\n'}
+[68.029668] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o\x1b[0m\n'}
+[68.041635] (-) TimerEvent: {}
+[68.100540] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o\x1b[0m\n'}
+[68.141807] (-) TimerEvent: {}
+[68.242909] (-) TimerEvent: {}
+[68.343429] (-) TimerEvent: {}
+[68.350202] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o\x1b[0m\n'}
+[68.400849] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o\x1b[0m\n'}
+[68.443743] (-) TimerEvent: {}
+[68.531712] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o\x1b[0m\n'}
+[68.543872] (-) TimerEvent: {}
+[68.644981] (-) TimerEvent: {}
+[68.657312] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o\x1b[0m\n'}
+[68.710806] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o\x1b[0m\n'}
+[68.745121] (-) TimerEvent: {}
+[68.811943] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o\x1b[0m\n'}
+[68.845294] (-) TimerEvent: {}
+[68.945849] (-) TimerEvent: {}
+[69.046301] (-) TimerEvent: {}
+[69.062931] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o\x1b[0m\n'}
+[69.146481] (-) TimerEvent: {}
+[69.211204] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o\x1b[0m\n'}
+[69.246645] (-) TimerEvent: {}
+[69.347115] (-) TimerEvent: {}
+[69.448067] (-) TimerEvent: {}
+[69.548973] (-) TimerEvent: {}
+[69.650088] (-) TimerEvent: {}
+[69.750531] (-) TimerEvent: {}
+[69.796972] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o\x1b[0m\n'}
+[69.850855] (-) TimerEvent: {}
+[69.854927] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o\x1b[0m\n'}
+[69.925317] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o\x1b[0m\n'}
+[69.951026] (-) TimerEvent: {}
+[70.051695] (-) TimerEvent: {}
+[70.119019] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o\x1b[0m\n'}
+[70.151770] (-) TimerEvent: {}
+[70.252220] (-) TimerEvent: {}
+[70.338818] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o\x1b[0m\n'}
+[70.352348] (-) TimerEvent: {}
+[70.453040] (-) TimerEvent: {}
+[70.554097] (-) TimerEvent: {}
+[70.630322] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o\x1b[0m\n'}
+[70.654246] (-) TimerEvent: {}
+[70.754907] (-) TimerEvent: {}
+[70.855608] (-) TimerEvent: {}
+[70.956088] (-) TimerEvent: {}
+[71.033624] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o\x1b[0m\n'}
+[71.056282] (-) TimerEvent: {}
+[71.097317] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o\x1b[0m\n'}
+[71.156437] (-) TimerEvent: {}
+[71.218062] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o\x1b[0m\n'}
+[71.260537] (-) TimerEvent: {}
+[71.362362] (-) TimerEvent: {}
+[71.418554] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o\x1b[0m\n'}
+[71.462535] (-) TimerEvent: {}
+[71.523925] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[71.562702] (-) TimerEvent: {}
+[71.663371] (-) TimerEvent: {}
+[71.763903] (-) TimerEvent: {}
+[71.789889] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[71.864011] (-) TimerEvent: {}
+[71.898261] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[71.964200] (-) TimerEvent: {}
+[72.067190] (-) TimerEvent: {}
+[72.123220] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o\x1b[0m\n'}
+[72.167290] (-) TimerEvent: {}
+[72.220560] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[72.268064] (-) TimerEvent: {}
+[72.329805] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o\x1b[0m\n'}
+[72.368197] (-) TimerEvent: {}
+[72.423608] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[72.468359] (-) TimerEvent: {}
+[72.566163] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o\x1b[0m\n'}
+[72.568526] (-) TimerEvent: {}
+[72.669592] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o\x1b[0m\n'}
+[72.670532] (-) TimerEvent: {}
+[72.730910] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o\x1b[0m\n'}
+[72.770690] (-) TimerEvent: {}
+[72.856655] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o\x1b[0m\n'}
+[72.870879] (-) TimerEvent: {}
+[72.971549] (-) TimerEvent: {}
+[73.072689] (-) TimerEvent: {}
+[73.114793] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[73.172912] (-) TimerEvent: {}
+[73.252810] (cyclonedds) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o\x1b[0m\n'}
+[73.282657] (-) TimerEvent: {}
+[73.355407] (cyclonedds) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[73.384821] (-) TimerEvent: {}
+[73.486021] (-) TimerEvent: {}
+[73.523732] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o\x1b[0m\n'}
+[73.586350] (-) TimerEvent: {}
+[73.686893] (-) TimerEvent: {}
+[73.787815] (-) TimerEvent: {}
+[73.888409] (-) TimerEvent: {}
+[73.919440] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o\x1b[0m\n'}
+[73.988544] (-) TimerEvent: {}
+[74.089553] (-) TimerEvent: {}
+[74.190651] (-) TimerEvent: {}
+[74.291766] (-) TimerEvent: {}
+[74.387122] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o\x1b[0m\n'}
+[74.391885] (-) TimerEvent: {}
+[74.492320] (-) TimerEvent: {}
+[74.592770] (-) TimerEvent: {}
+[74.665382] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o\x1b[0m\n'}
+[74.692957] (-) TimerEvent: {}
+[74.793631] (-) TimerEvent: {}
+[74.894083] (-) TimerEvent: {}
+[75.001732] (-) TimerEvent: {}
+[75.102207] (-) TimerEvent: {}
+[75.205716] (-) TimerEvent: {}
+[75.306389] (-) TimerEvent: {}
+[75.406753] (-) TimerEvent: {}
+[75.420883] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o\x1b[0m\n'}
+[75.506887] (-) TimerEvent: {}
+[75.607565] (-) TimerEvent: {}
+[75.683784] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o\x1b[0m\n'}
+[75.707709] (-) TimerEvent: {}
+[75.776443] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libddsc.so\x1b[0m\n'}
+[75.807842] (-) TimerEvent: {}
+[75.908307] (-) TimerEvent: {}
+[76.008900] (-) TimerEvent: {}
+[76.109290] (-) TimerEvent: {}
+[76.128695] (cyclonedds) StdoutLine: {'line': b'[ 77%] Built target ddsc\n'}
+[76.141984] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating src/md5.c\x1b[0m\n'}
+[76.170574] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating include/idl/endian.h\x1b[0m\n'}
+[76.192494] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating include/idl/md5.h\x1b[0m\n'}
+[76.209439] (-) TimerEvent: {}
+[76.214195] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating include/idl/misc.h\x1b[0m\n'}
+[76.238758] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating include/idl/attributes.h\x1b[0m\n'}
+[76.279970] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o\x1b[0m\n'}
+[76.309594] (-) TimerEvent: {}
+[76.410070] (-) TimerEvent: {}
+[76.440399] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o\x1b[0m\n'}
+[76.510198] (-) TimerEvent: {}
+[76.610848] (-) TimerEvent: {}
+[76.711324] (-) TimerEvent: {}
+[76.811806] (-) TimerEvent: {}
+[76.832440] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o\x1b[0m\n'}
+[76.911947] (-) TimerEvent: {}
+[77.012635] (-) TimerEvent: {}
+[77.114017] (-) TimerEvent: {}
+[77.122068] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o\x1b[0m\n'}
+[77.214167] (-) TimerEvent: {}
+[77.314633] (-) TimerEvent: {}
+[77.394508] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o\x1b[0m\n'}
+[77.414755] (-) TimerEvent: {}
+[77.515639] (-) TimerEvent: {}
+[77.616325] (-) TimerEvent: {}
+[77.716851] (-) TimerEvent: {}
+[77.817303] (-) TimerEvent: {}
+[77.820843] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o\x1b[0m\n'}
+[77.917423] (-) TimerEvent: {}
+[77.986027] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o\x1b[0m\n'}
+[78.018915] (-) TimerEvent: {}
+[78.119374] (-) TimerEvent: {}
+[78.220602] (-) TimerEvent: {}
+[78.321280] (-) TimerEvent: {}
+[78.372571] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o\x1b[0m\n'}
+[78.421443] (-) TimerEvent: {}
+[78.521882] (-) TimerEvent: {}
+[78.606510] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o\x1b[0m\n'}
+[78.622026] (-) TimerEvent: {}
+[78.722815] (-) TimerEvent: {}
+[78.823266] (-) TimerEvent: {}
+[78.923673] (-) TimerEvent: {}
+[79.028763] (-) TimerEvent: {}
+[79.129279] (-) TimerEvent: {}
+[79.229786] (-) TimerEvent: {}
+[79.330581] (-) TimerEvent: {}
+[79.432912] (-) TimerEvent: {}
+[79.534519] (-) TimerEvent: {}
+[79.635506] (-) TimerEvent: {}
+[79.736023] (-) TimerEvent: {}
+[79.833318] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/vector.c.o\x1b[0m\n'}
+[79.836600] (-) TimerEvent: {}
+[79.908007] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o\x1b[0m\n'}
+[79.937293] (-) TimerEvent: {}
+[80.037757] (-) TimerEvent: {}
+[80.058834] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o\x1b[0m\n'}
+[80.137906] (-) TimerEvent: {}
+[80.238610] (-) TimerEvent: {}
+[80.244773] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o\x1b[0m\n'}
+[80.338763] (-) TimerEvent: {}
+[80.437790] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o\x1b[0m\n'}
+[80.438889] (-) TimerEvent: {}
+[80.496285] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o\x1b[0m\n'}
+[80.539022] (-) TimerEvent: {}
+[80.640474] (-) TimerEvent: {}
+[80.740877] (-) TimerEvent: {}
+[80.841319] (-) TimerEvent: {}
+[80.942287] (-) TimerEvent: {}
+[81.042763] (-) TimerEvent: {}
+[81.143248] (-) TimerEvent: {}
+[81.243716] (-) TimerEvent: {}
+[81.344353] (-) TimerEvent: {}
+[81.389860] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/heap.c.o\x1b[0m\n'}
+[81.442553] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/descriptor_type_meta.c.o\x1b[0m\n'}
+[81.444532] (-) TimerEvent: {}
+[81.545991] (-) TimerEvent: {}
+[81.646740] (-) TimerEvent: {}
+[81.748093] (-) TimerEvent: {}
+[81.848486] (-) TimerEvent: {}
+[81.949242] (-) TimerEvent: {}
+[82.050199] (-) TimerEvent: {}
+[82.101784] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o\x1b[0m\n'}
+[82.150376] (-) TimerEvent: {}
+[82.251297] (-) TimerEvent: {}
+[82.295995] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o\x1b[0m\n'}
+[82.352221] (-) TimerEvent: {}
+[82.452698] (-) TimerEvent: {}
+[82.553268] (-) TimerEvent: {}
+[82.608549] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libcycloneddsidl.so\x1b[0m\n'}
+[82.653412] (-) TimerEvent: {}
+[82.718379] (cyclonedds) StdoutLine: {'line': b'[ 86%] Built target idl\n'}
+[82.747761] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/xtests/symbol_export/CMakeFiles/symbol_export_test.dir/symbol_export.c.o\x1b[0m\n'}
+[82.753598] (-) TimerEvent: {}
+[82.854418] (-) TimerEvent: {}
+[82.954953] (-) TimerEvent: {}
+[83.055494] (-) TimerEvent: {}
+[83.156007] (-) TimerEvent: {}
+[83.256480] (-) TimerEvent: {}
+[83.357265] (-) TimerEvent: {}
+[83.429725] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C executable ../../../../bin/symbol_export_test\x1b[0m\n'}
+[83.457533] (-) TimerEvent: {}
+[83.547771] (cyclonedds) StdoutLine: {'line': b'[ 87%] Built target symbol_export_test\n'}
+[83.557686] (-) TimerEvent: {}
+[83.571356] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/libidlc.dir/src/libidlc/libidlc__descriptor.c.o\x1b[0m\n'}
+[83.657927] (-) TimerEvent: {}
+[83.758634] (-) TimerEvent: {}
+[83.859268] (-) TimerEvent: {}
+[83.959938] (-) TimerEvent: {}
+[84.060654] (-) TimerEvent: {}
+[84.161820] (-) TimerEvent: {}
+[84.262342] (-) TimerEvent: {}
+[84.363147] (-) TimerEvent: {}
+[84.463675] (-) TimerEvent: {}
+[84.564124] (-) TimerEvent: {}
+[84.664612] (-) TimerEvent: {}
+[84.765098] (-) TimerEvent: {}
+[84.865579] (-) TimerEvent: {}
+[84.902278] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/libidlc.dir/src/libidlc/libidlc__types.c.o\x1b[0m\n'}
+[84.967325] (-) TimerEvent: {}
+[85.067790] (-) TimerEvent: {}
+[85.170469] (-) TimerEvent: {}
+[85.271281] (-) TimerEvent: {}
+[85.280340] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/libidlc.dir/src/libidlc/libidlc__generator.c.o\x1b[0m\n'}
+[85.371473] (-) TimerEvent: {}
+[85.469443] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library ../../../lib/libcycloneddsidlc.so\x1b[0m\n'}
+[85.471534] (-) TimerEvent: {}
+[85.551426] (cyclonedds) StdoutLine: {'line': b'[ 88%] Built target libidlc\n'}
+[85.571701] (-) TimerEvent: {}
+[85.579347] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc/idlc.c.o\x1b[0m\n'}
+[85.671848] (-) TimerEvent: {}
+[85.772309] (-) TimerEvent: {}
+[85.872845] (-) TimerEvent: {}
+[85.883533] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc/options.c.o\x1b[0m\n'}
+[85.973002] (-) TimerEvent: {}
+[86.073522] (-) TimerEvent: {}
+[86.083387] (cyclonedds) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc/generator.c.o\x1b[0m\n'}
+[86.173664] (-) TimerEvent: {}
+[86.200575] (cyclonedds) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C executable ../../../bin/idlc\x1b[0m\n'}
+[86.273810] (-) TimerEvent: {}
+[86.301655] (cyclonedds) StdoutLine: {'line': b'[ 89%] Built target idlc\n'}
+[86.330873] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object src/psmx_iox/CMakeFiles/psmx_iox.dir/src/psmx_iox_impl.cpp.o\x1b[0m\n'}
+[86.373965] (-) TimerEvent: {}
+[86.474404] (-) TimerEvent: {}
+[86.574996] (-) TimerEvent: {}
+[86.675428] (-) TimerEvent: {}
+[86.776789] (-) TimerEvent: {}
+[86.877352] (-) TimerEvent: {}
+[86.977899] (-) TimerEvent: {}
+[87.078568] (-) TimerEvent: {}
+[87.179210] (-) TimerEvent: {}
+[87.279744] (-) TimerEvent: {}
+[87.380217] (-) TimerEvent: {}
+[87.481551] (-) TimerEvent: {}
+[87.581933] (-) TimerEvent: {}
+[87.682462] (-) TimerEvent: {}
+[87.785788] (-) TimerEvent: {}
+[87.886433] (-) TimerEvent: {}
+[87.987855] (-) TimerEvent: {}
+[88.088392] (-) TimerEvent: {}
+[88.189063] (-) TimerEvent: {}
+[88.293674] (-) TimerEvent: {}
+[88.394443] (-) TimerEvent: {}
+[88.494900] (-) TimerEvent: {}
+[88.595344] (-) TimerEvent: {}
+[88.695830] (-) TimerEvent: {}
+[88.796597] (-) TimerEvent: {}
+[88.897322] (-) TimerEvent: {}
+[88.997805] (-) TimerEvent: {}
+[89.098427] (-) TimerEvent: {}
+[89.198957] (-) TimerEvent: {}
+[89.299412] (-) TimerEvent: {}
+[89.399985] (-) TimerEvent: {}
+[89.500530] (-) TimerEvent: {}
+[89.504098] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object src/psmx_iox/CMakeFiles/psmx_iox.dir/src/scheduling.cpp.o\x1b[0m\n'}
+[89.600614] (-) TimerEvent: {}
+[89.701251] (-) TimerEvent: {}
+[89.801703] (-) TimerEvent: {}
+[89.902190] (-) TimerEvent: {}
+[90.002665] (-) TimerEvent: {}
+[90.103180] (-) TimerEvent: {}
+[90.203653] (-) TimerEvent: {}
+[90.304294] (-) TimerEvent: {}
+[90.404948] (-) TimerEvent: {}
+[90.487208] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object src/psmx_iox/CMakeFiles/psmx_iox.dir/src/machineid.cpp.o\x1b[0m\n'}
+[90.505151] (-) TimerEvent: {}
+[90.605655] (-) TimerEvent: {}
+[90.706127] (-) TimerEvent: {}
+[90.717290] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library ../../lib/libpsmx_iox.so\x1b[0m\n'}
+[90.806258] (-) TimerEvent: {}
+[90.900909] (cyclonedds) StdoutLine: {'line': b'[ 91%] Built target psmx_iox\n'}
+[90.917273] (-) TimerEvent: {}
+[90.945660] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[34m\x1b[1mGenerating ddsperf_types.c, ddsperf_types.h\x1b[0m\n'}
+[90.949006] (cyclonedds) StderrLine: {'line': b'../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser\n'}
+[90.949372] (cyclonedds) StderrLine: {'line': b'gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127\n'}
+[90.949896] (cyclonedds) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2\n'}
+[90.950293] (cyclonedds) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[90.954333] (cyclonedds) CommandEnded: {'returncode': 2}
+[91.017458] (-) TimerEvent: {}
+[91.028315] (cyclonedds) JobEnded: {'identifier': 'cyclonedds', 'rc': 2}
+[91.031205] (rmw_cyclonedds_cpp) JobSkipped: {'identifier': 'rmw_cyclonedds_cpp'}
+[91.031301] (-) EventReactorShutdown: {}

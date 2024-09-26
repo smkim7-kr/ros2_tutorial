@@ -1,0 +1,17 @@
+[  3%] Built target idlpp
+[  3%] Built target _confgen
+[ 17%] Built target ddsrt-internal
+[ 77%] Built target ddsc
+[ 79%] Built target dds_security_auth
+[ 81%] Built target dds_security_ac
+[ 81%] Built target symbol_export_test
+[ 84%] Built target dds_security_crypto
+[ 86%] Built target psmx_iox
+[ 95%] Built target idl
+[ 97%] Built target idlc
+[ 97%] Built target libidlc
+[ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
+gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
+gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

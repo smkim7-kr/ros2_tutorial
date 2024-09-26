@@ -1,0 +1,46 @@
+[0.026s] Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target idlpp[0m
+[0.105s] [  0%] Built target _confgen
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target ddsrt-internal[0m
+[0.117s] [  3%] Built target idlpp
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target ddsc[0m
+[0.210s] [ 17%] Built target ddsrt-internal
+[0.412s] [ 77%] Built target ddsc
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target idl[0m
+[0.515s] [ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[0.517s] [ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[0.518s] [ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[0.519s] [ 87%] Built target idl
+[0.577s] [35m[1mConsolidate compiler generated dependencies of target symbol_export_test[0m
+[0.649s] [ 88%] Built target symbol_export_test
+[0.698s] [35m[1mConsolidate compiler generated dependencies of target psmx_iox[0m
+[0.754s] [ 90%] Built target psmx_iox
+[0.785s] [ 90%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[0.906s] [ 90%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[0.907s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[0.915s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[0.985s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[1.143s] [ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[1.894s] [ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[2.131s] [ 93%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[2.182s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[2.305s] [ 93%] Built target dds_security_ac
+[2.390s] [ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[2.659s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[3.441s] [ 94%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[3.561s] [ 94%] Built target dds_security_crypto
+[3.572s] [35m[1mConsolidate compiler generated dependencies of target libidlc[0m
+[3.588s] [ 95%] Built target libidlc
+[3.600s] [35m[1mConsolidate compiler generated dependencies of target idlc[0m
+[3.614s] [ 96%] Built target idlc
+[3.646s] [ 96%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[4.714s] [ 97%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[4.917s] [ 97%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[5.418s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[5.525s] [ 97%] Built target dds_security_auth
+[5.578s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[5.580s] ../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
+[5.581s] gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
+[5.582s] gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
+[5.583s] gmake: *** [Makefile:156: all] Error 2
+[5.585s] Invoked command in '/dev_ws/build/cyclonedds' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8

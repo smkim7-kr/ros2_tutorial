@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target idlpp[0m
+[  0%] Built target _confgen
+[35m[1mConsolidate compiler generated dependencies of target ddsrt-internal[0m
+[  3%] Built target idlpp
+[35m[1mConsolidate compiler generated dependencies of target ddsc[0m
+[ 17%] Built target ddsrt-internal
+[ 77%] Built target ddsc
+[35m[1mConsolidate compiler generated dependencies of target idl[0m
+[ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[ 78%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[ 87%] Built target idl
+[35m[1mConsolidate compiler generated dependencies of target symbol_export_test[0m
+[ 88%] Built target symbol_export_test
+[35m[1mConsolidate compiler generated dependencies of target psmx_iox[0m
+[ 90%] Built target psmx_iox
+[ 90%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[ 90%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[ 91%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[ 93%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[ 93%] Built target dds_security_ac
+[ 93%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[ 94%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[ 94%] Built target dds_security_crypto
+[35m[1mConsolidate compiler generated dependencies of target libidlc[0m
+[ 95%] Built target libidlc
+[35m[1mConsolidate compiler generated dependencies of target idlc[0m
+[ 96%] Built target idlc
+[ 96%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[ 97%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[ 97%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[ 97%] Built target dds_security_auth
+[ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m

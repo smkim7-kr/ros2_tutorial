@@ -1,0 +1,6 @@
+[31mCMake Error at cmake/Modules/Generate.cmake:35 (message):
+  Unable to find IDLC C-backend library: cycloneddsidlc
+Call Stack (most recent call first):
+  src/tools/ddsperf/CMakeLists.txt:16 (idlc_generate)
+
+[0m

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000526] (cyclonedds) JobQueued: {'identifier': 'cyclonedds', 'dependencies': OrderedDict()}
+[0.001328] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001689] (rmw_cyclonedds_cpp) JobQueued: {'identifier': 'rmw_cyclonedds_cpp', 'dependencies': OrderedDict([('cyclonedds', '/dev_ws/install/cyclonedds')])}
+[0.001766] (cyclonedds) JobStarted: {'identifier': 'cyclonedds'}
+[0.013609] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.026576] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'cmake'}
+[0.026672] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'build'}
+[0.026705] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/dev_ws/build/cyclonedds', '--', '-j8', '-l8'], 'cwd': '/dev_ws/build/cyclonedds', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/cyclonedds'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.030826] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.031728] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.032365] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/dev_ws/build/my_bot', '--', '-j8', '-l8'], 'cwd': '/dev_ws/build/my_bot', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.085480] (my_bot) CommandEnded: {'returncode': 0}
+[0.092479] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target idlpp\x1b[0m\n'}
+[0.099373] (-) TimerEvent: {}
+[0.106167] (cyclonedds) StdoutLine: {'line': b'[  0%] Built target _confgen\n'}
+[0.117074] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ddsrt-internal\x1b[0m\n'}
+[0.119065] (cyclonedds) StdoutLine: {'line': b'[  3%] Built target idlpp\n'}
+[0.193627] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ddsc\x1b[0m\n'}
+[0.199510] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.199592] (-) TimerEvent: {}
+[0.211809] (cyclonedds) StdoutLine: {'line': b'[ 17%] Built target ddsrt-internal\n'}
+[0.219258] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/dev_ws/build/my_bot'], 'cwd': '/dev_ws/build/my_bot', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('ROS_NAMESPACE', 'robot1'), ('HOSTNAME', 'skim'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/dev_ws/build/my_bot'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/dev_ws/install/my_bot:/opt/ros/humble')]), 'shell': False}
+[0.233841] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.236774] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.239388] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/control.yaml\n'}
+[0.239591] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[0.239734] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.239917] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.240296] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[0.240410] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.240652] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/slam.rviz\n'}
+[0.240926] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.241177] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[0.241476] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/depth_camera.xacro\n'}
+[0.241694] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.241866] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[0.242057] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[0.242317] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.242527] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[0.242799] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[0.243001] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.243206] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.243438] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.243649] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.243880] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.244111] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.244446] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.244606] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.244712] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.244809] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.244904] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.245003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.245096] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.245185] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.245310] (my_bot) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.256437] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.256945] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.257137] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.257253] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.259558] (my_bot) CommandEnded: {'returncode': 0}
+[0.303708] (-) TimerEvent: {}
+[0.360190] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.403926] (-) TimerEvent: {}
+[0.412707] (cyclonedds) StdoutLine: {'line': b'[ 77%] Built target ddsc\n'}
+[0.449010] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target idl\x1b[0m\n'}
+[0.504132] (-) TimerEvent: {}
+[0.516139] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o\x1b[0m\n'}
+[0.518439] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o\x1b[0m\n'}
+[0.519801] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o\x1b[0m\n'}
+[0.520292] (cyclonedds) StdoutLine: {'line': b'[ 87%] Built target idl\n'}
+[0.579016] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target symbol_export_test\x1b[0m\n'}
+[0.604322] (-) TimerEvent: {}
+[0.650298] (cyclonedds) StdoutLine: {'line': b'[ 88%] Built target symbol_export_test\n'}
+[0.699275] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target psmx_iox\x1b[0m\n'}
+[0.704409] (-) TimerEvent: {}
+[0.755700] (cyclonedds) StdoutLine: {'line': b'[ 90%] Built target psmx_iox\n'}
+[0.786269] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o\x1b[0m\n'}
+[0.804606] (-) TimerEvent: {}
+[0.905107] (-) TimerEvent: {}
+[0.907463] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[0.908463] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o\x1b[0m\n'}
+[0.916246] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o\x1b[0m\n'}
+[0.986277] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o\x1b[0m\n'}
+[1.005244] (-) TimerEvent: {}
+[1.106236] (-) TimerEvent: {}
+[1.143979] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o\x1b[0m\n'}
+[1.206377] (-) TimerEvent: {}
+[1.307543] (-) TimerEvent: {}
+[1.408788] (-) TimerEvent: {}
+[1.510052] (-) TimerEvent: {}
+[1.610682] (-) TimerEvent: {}
+[1.711345] (-) TimerEvent: {}
+[1.812024] (-) TimerEvent: {}
+[1.895522] (cyclonedds) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[1.912168] (-) TimerEvent: {}
+[2.012854] (-) TimerEvent: {}
+[2.113871] (-) TimerEvent: {}
+[2.131340] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_ac.so\x1b[0m\n'}
+[2.183772] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o\x1b[0m\n'}
+[2.214010] (-) TimerEvent: {}
+[2.306479] (cyclonedds) StdoutLine: {'line': b'[ 93%] Built target dds_security_ac\n'}
+[2.314134] (-) TimerEvent: {}
+[2.391318] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o\x1b[0m\n'}
+[2.414351] (-) TimerEvent: {}
+[2.514828] (-) TimerEvent: {}
+[2.615253] (-) TimerEvent: {}
+[2.660381] (cyclonedds) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o\x1b[0m\n'}
+[2.715403] (-) TimerEvent: {}
+[2.815919] (-) TimerEvent: {}
+[2.917168] (-) TimerEvent: {}
+[3.018037] (-) TimerEvent: {}
+[3.118597] (-) TimerEvent: {}
+[3.219132] (-) TimerEvent: {}
+[3.319791] (-) TimerEvent: {}
+[3.420269] (-) TimerEvent: {}
+[3.441729] (cyclonedds) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_crypto.so\x1b[0m\n'}
+[3.520417] (-) TimerEvent: {}
+[3.562303] (cyclonedds) StdoutLine: {'line': b'[ 94%] Built target dds_security_crypto\n'}
+[3.573483] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target libidlc\x1b[0m\n'}
+[3.589768] (cyclonedds) StdoutLine: {'line': b'[ 95%] Built target libidlc\n'}
+[3.601929] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target idlc\x1b[0m\n'}
+[3.615605] (cyclonedds) StdoutLine: {'line': b'[ 96%] Built target idlc\n'}
+[3.620557] (-) TimerEvent: {}
+[3.647552] (cyclonedds) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o\x1b[0m\n'}
+[3.729480] (-) TimerEvent: {}
+[3.830129] (-) TimerEvent: {}
+[3.930907] (-) TimerEvent: {}
+[4.032717] (-) TimerEvent: {}
+[4.133713] (-) TimerEvent: {}
+[4.234816] (-) TimerEvent: {}
+[4.335912] (-) TimerEvent: {}
+[4.436377] (-) TimerEvent: {}
+[4.537272] (-) TimerEvent: {}
+[4.638178] (-) TimerEvent: {}
+[4.715050] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[4.738342] (-) TimerEvent: {}
+[4.838943] (-) TimerEvent: {}
+[4.918380] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o\x1b[0m\n'}
+[4.939127] (-) TimerEvent: {}
+[5.039834] (-) TimerEvent: {}
+[5.140521] (-) TimerEvent: {}
+[5.241146] (-) TimerEvent: {}
+[5.341807] (-) TimerEvent: {}
+[5.419357] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_auth.so\x1b[0m\n'}
+[5.441952] (-) TimerEvent: {}
+[5.526617] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_auth\n'}
+[5.542144] (-) TimerEvent: {}
+[5.577319] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[34m\x1b[1mGenerating ddsperf_types.c, ddsperf_types.h\x1b[0m\n'}
+[5.580859] (cyclonedds) StderrLine: {'line': b'../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser\n'}
+[5.581999] (cyclonedds) StderrLine: {'line': b'gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127\n'}
+[5.582725] (cyclonedds) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2\n'}
+[5.584311] (cyclonedds) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[5.586345] (cyclonedds) CommandEnded: {'returncode': 2}
+[5.637694] (cyclonedds) JobEnded: {'identifier': 'cyclonedds', 'rc': 2}
+[5.639076] (rmw_cyclonedds_cpp) JobSkipped: {'identifier': 'rmw_cyclonedds_cpp'}
+[5.639145] (-) EventReactorShutdown: {}

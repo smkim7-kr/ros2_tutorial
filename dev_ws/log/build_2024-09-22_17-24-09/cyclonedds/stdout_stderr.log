@@ -1,0 +1,35 @@
+-- Building with OpenSSL support
+-- Building with IPv6 support
+-- Building with source-specific multicast support
+-- Building Iceoryx PSMX plugin
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /dev_ws/build/cyclonedds
+[35m[1mConsolidate compiler generated dependencies of target idlpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ddsrt-internal[0m
+[  0%] Built target _confgen
+[  3%] Built target idlpp
+[ 17%] Built target ddsrt-internal
+[35m[1mConsolidate compiler generated dependencies of target ddsc[0m
+[ 77%] Built target ddsc
+[35m[1mConsolidate compiler generated dependencies of target symbol_export_test[0m
+[35m[1mConsolidate compiler generated dependencies of target dds_security_ac[0m
+[35m[1mConsolidate compiler generated dependencies of target dds_security_auth[0m
+[35m[1mConsolidate compiler generated dependencies of target dds_security_crypto[0m
+[35m[1mConsolidate compiler generated dependencies of target idl[0m
+[35m[1mConsolidate compiler generated dependencies of target psmx_iox[0m
+[ 78%] Built target symbol_export_test
+[ 80%] Built target dds_security_ac
+[ 90%] Built target idl
+[ 90%] Built target dds_security_auth
+[ 93%] Built target dds_security_crypto
+[ 95%] Built target psmx_iox
+[35m[1mConsolidate compiler generated dependencies of target idlc[0m
+[35m[1mConsolidate compiler generated dependencies of target libidlc[0m
+[ 96%] Built target libidlc
+[ 97%] Built target idlc
+[ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
+gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
+gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
+gmake: *** [Makefile:156: all] Error 2

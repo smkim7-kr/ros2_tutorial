@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds
+[0.030s] -- Building with OpenSSL support
+[0.041s] -- Building with IPv6 support
+[0.041s] -- Building with source-specific multicast support
+[0.053s] -- Building Iceoryx PSMX plugin
+[0.368s] -- Configuring done
+[0.420s] -- Generating done
+[0.423s] -- Build files have been written to: /dev_ws/build/cyclonedds
+[0.427s] Invoked command in '/dev_ws/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds
+[0.429s] Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8
+[0.453s] [35m[1mConsolidate compiler generated dependencies of target idlpp[0m
+[0.455s] [35m[1mConsolidate compiler generated dependencies of target ddsrt-internal[0m
+[0.462s] [  0%] Built target _confgen
+[0.463s] [  3%] Built target idlpp
+[0.473s] [ 17%] Built target ddsrt-internal
+[0.500s] [35m[1mConsolidate compiler generated dependencies of target ddsc[0m
+[0.618s] [ 77%] Built target ddsc
+[0.626s] [35m[1mConsolidate compiler generated dependencies of target symbol_export_test[0m
+[0.627s] [35m[1mConsolidate compiler generated dependencies of target dds_security_ac[0m
+[0.627s] [35m[1mConsolidate compiler generated dependencies of target dds_security_auth[0m
+[0.628s] [35m[1mConsolidate compiler generated dependencies of target dds_security_crypto[0m
+[0.628s] [35m[1mConsolidate compiler generated dependencies of target idl[0m
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target psmx_iox[0m
+[0.639s] [ 78%] Built target symbol_export_test
+[0.643s] [ 80%] Built target dds_security_ac
+[0.645s] [ 90%] Built target idl
+[0.645s] [ 90%] Built target dds_security_auth
+[0.646s] [ 93%] Built target dds_security_crypto
+[0.653s] [ 95%] Built target psmx_iox
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target idlc[0m
+[0.653s] [35m[1mConsolidate compiler generated dependencies of target libidlc[0m
+[0.662s] [ 96%] Built target libidlc
+[0.662s] [ 97%] Built target idlc
+[0.674s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[0.675s] ../../../bin/idlc: symbol lookup error: ../../../bin/idlc: undefined symbol: generate_type_meta_ser
+[0.676s] gmake[2]: *** [src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/build.make:76: src/tools/ddsperf/ddsperf_types.c] Error 127
+[0.676s] gmake[1]: *** [CMakeFiles/Makefile2:553: src/tools/ddsperf/CMakeFiles/ddsperf_types_generate.dir/all] Error 2
+[0.676s] gmake: *** [Makefile:156: all] Error 2
+[0.678s] Invoked command in '/dev_ws/build/cyclonedds' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /dev_ws/build/cyclonedds -- -j8 -l8

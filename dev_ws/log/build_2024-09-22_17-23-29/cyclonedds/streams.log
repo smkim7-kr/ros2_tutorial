@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=OFF -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds
+[0.028s] -- Building with OpenSSL support
+[0.043s] [31mCMake Error at cmake/Modules/Generate.cmake:35 (message):
+[0.044s]   Unable to find IDLC C-backend library: cycloneddsidlc
+[0.044s] Call Stack (most recent call first):
+[0.044s]   src/tools/ddsperf/CMakeLists.txt:16 (idlc_generate)
+[0.044s] 
+[0.044s] [0m
+[0.044s] -- Configuring incomplete, errors occurred!
+[0.044s] See also "/dev_ws/build/cyclonedds/CMakeFiles/CMakeOutput.log".
+[0.044s] See also "/dev_ws/build/cyclonedds/CMakeFiles/CMakeError.log".
+[0.047s] Invoked command in '/dev_ws/build/cyclonedds' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=OFF -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds

@@ -1,0 +1,2 @@
+Invoking command in '/dev_ws/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=OFF -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds
+Invoked command in '/dev_ws/build/cyclonedds' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /dev_ws/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=OFF -DCMAKE_INSTALL_PREFIX=/dev_ws/install/cyclonedds
